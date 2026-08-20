@@ -1,8 +1,8 @@
 {
   "modelVersion": "football-radar-evidence-first-v2",
   "businessDate": "2026-08-20",
-  "generatedAt": "2026-08-20T13:28:05+08:00",
-  "sportteryLastUpdateTime": "2026-08-20 13:16:17",
+  "generatedAt": "2026-08-20T13:59:35+08:00",
+  "sportteryLastUpdateTime": "2026-08-20 13:45:13",
   "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
   "matches": [
     {
@@ -182,14 +182,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1602981",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 20,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=2944-2932",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": [
             {
               "date": "2026-05-21T18:00:00+00:00",
@@ -381,14 +381,14 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 9.9,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=26.32599&longitude=43.97497&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.spl.com.sa/en",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1602981",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -499,23 +499,23 @@
         "had": {
           "status": "offered",
           "values": {
-            "h": 2.01,
+            "h": 2.03,
             "d": 2.84,
-            "a": 3.58
+            "a": 3.52
           },
-          "updatedAt": "2026-08-19 12:12:20",
+          "updatedAt": "2026-08-20 13:27:40",
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
         },
         "hhad": {
           "status": "offered",
           "values": {
-            "h": 4.6,
+            "h": 4.66,
             "d": 3.4,
-            "a": 1.62,
+            "a": 1.61,
             "goalLine": "-1",
             "goalLineValue": "-1.00"
           },
-          "updatedAt": "2026-08-19 12:12:25",
+          "updatedAt": "2026-08-20 13:27:44",
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
         },
         "ttg": {
@@ -664,7 +664,7 @@
           "status": "checked",
           "recordCount": 5,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1570351",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": [
             {
               "team": "Rayo Vallecano",
@@ -702,7 +702,7 @@
           "status": "checked",
           "recordCount": 13,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=728-542",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": [
             {
               "date": "2026-05-23T19:00:00+00:00",
@@ -824,14 +824,14 @@
           "precipitationProbabilityPct": 3,
           "windSpeedKmh": 10.5,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=40.32718&longitude=-3.7635&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.laliga.com/en-GB/laliga-easports/results",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1570351",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -886,14 +886,14 @@
           "awayInjuryRecords": 2
         },
         "marketProbabilities": {
-          "home": 0.4407,
+          "home": 0.4364,
           "draw": 0.3119,
-          "away": 0.2474
+          "away": 0.2517
         },
         "finalProbabilities": {
-          "home": 0.392,
-          "draw": 0.3012,
-          "away": 0.3068
+          "home": 0.3889,
+          "draw": 0.3013,
+          "away": 0.3099
         },
         "overheatDetected": false,
         "corrections": [
@@ -1239,14 +1239,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1547767",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 2,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=131-437",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": [
             {
               "date": "2026-08-14T00:30:00+00:00",
@@ -1268,14 +1268,14 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 6.2,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=-23.5475&longitude=-46.63611&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-20&end_date=2026-08-22",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://conmebollibertadores.com/",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1547767",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -1639,14 +1639,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1623435",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 2,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=664-554",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "weather": {
@@ -1657,14 +1657,14 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 3.4,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=43.25249&longitude=76.9115&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.uefa.com/uefaeuropaleague/accesslist/",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1623435",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -2072,14 +2072,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1623436",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 2,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=2240-571",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "weather": {
@@ -2090,14 +2090,14 @@
           "precipitationProbabilityPct": 13,
           "windSpeedKmh": 14.0,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=56.01667&longitude=14.7&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.uefa.com/uefaeuropaleague/accesslist/",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1623436",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -2231,15 +2231,15 @@
           "status": "offered",
           "values": {
             "s0": 15.0,
-            "s1": 5.6,
-            "s2": 3.7,
-            "s3": 3.6,
+            "s1": 5.7,
+            "s2": 3.55,
+            "s3": 3.55,
             "s4": 5.2,
-            "s5": 8.6,
-            "s6": 16.5,
-            "s7": 24.0
+            "s5": 9.1,
+            "s6": 17.0,
+            "s7": 27.0
           },
-          "updatedAt": "2026-08-20 09:21:04",
+          "updatedAt": "2026-08-20 13:40:52",
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
         },
         "crs": {
@@ -2461,14 +2461,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1623439",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 4,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=998-651",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": [
             {
               "date": "2022-11-03T17:45:00+00:00",
@@ -2500,14 +2500,14 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 1.6,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=41.005&longitude=39.72694&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.uefa.com/uefaeuropaleague/accesslist/",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1623439",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -2577,7 +2577,7 @@
         ],
         "direction": "home",
         "protection": "draw",
-        "totalGoalsMode": "3",
+        "totalGoalsMode": "2",
         "mainScore": "2-1",
         "safeScores": [
           "2-1",
@@ -2827,14 +2827,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1627595",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 2,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=347-1012",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "weather": {
@@ -2845,14 +2845,14 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 6.2,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=52.40692&longitude=16.92993&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.uefa.com/uefaeuropaleague/accesslist/",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1627595",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -3150,14 +3150,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1622632",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 2,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=598-567",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "weather": {
@@ -3168,14 +3168,14 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 13.7,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=44.80401&longitude=20.46513&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.uefa.com/uefaeuropaleague/accesslist/",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1622632",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {
@@ -3286,7 +3286,7 @@
         "had": {
           "status": "not_offered_by_official_api",
           "reason": "中国竞彩网实时响应中未提供 HAD 在售值",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
         },
         "hhad": {
@@ -3546,14 +3546,14 @@
           "status": "checked",
           "recordCount": 0,
           "source": "https://v3.football.api-sports.io/injuries?fixture=1623431",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "headToHead": {
           "status": "checked",
           "recordCount": 2,
           "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=211-406",
-          "checkedAt": "2026-08-20T13:28:05+08:00",
+          "checkedAt": "2026-08-20T13:59:35+08:00",
           "records": []
         },
         "weather": {
@@ -3564,14 +3564,14 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 16.6,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=38.72509&longitude=-9.1498&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         },
         "competitionAuthority": "https://www.uefa.com/uefaeuropaleague/accesslist/",
         "externalOdds": {
           "status": "checked",
           "recordCount": 1,
           "source": "https://v3.football.api-sports.io/odds?fixture=1623431",
-          "checkedAt": "2026-08-20T13:28:05+08:00"
+          "checkedAt": "2026-08-20T13:59:35+08:00"
         }
       },
       "prediction": {

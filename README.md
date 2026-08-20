@@ -28,6 +28,7 @@ python -m unittest discover -s tests -v
 - `data/evidence_YYYYMMDD.json`：逐场证据摘要
 - `output/prediction_YYYYMMDD.json`：机器可读预测及完整度审计
 - `output/prediction_YYYYMMDD.md`：中文完整报告
+- `output/detailed_analysis_YYYYMMDD.md`：逐场主客队分开、七章节框架分析
 - `YYYYMMDD/index.html`：静态网页
 
 “100%”指本项目定义的必需采集检查全部执行成功、每个结论都有来源，不代表比赛结果命中率。足球比赛存在随机性，任何模型都不能保证预测命中。

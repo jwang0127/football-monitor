@@ -1,8 +1,8 @@
 # 足球雷达 · 2026-08-20（竞彩业务日）
 
-生成时间：2026-08-20T13:28:05+08:00
+生成时间：2026-08-20T13:59:35+08:00
 
-官方竞彩快照：2026-08-20 13:16:17
+官方竞彩快照：2026-08-20 13:45:13
 
 完整度：9/9 场通过全部必需检查；空值审计 0。
 
@@ -22,12 +22,12 @@
 
 - 开赛：2026-08-21T03:00:00+08:00；La Liga / Regular Season - 2；Estadio Municipal de Butarque。
 - 结论：主胜，防 客胜；总进球 2；主比分 1-0；安全池 1-0 / 0-1 / 2-0；尾部 2-1；冷门比分 0-1。
-- 概率：主 39.2% / 平 30.1% / 客 30.7%；信心 中。
+- 概率：主 38.9% / 平 30.1% / 客 31.0%；信心 中。
 - 近期：主队近 2 场 0胜0平2负，1-5；客队近 2 场 1胜1平0负，4-1。
 - 赛程：休息 4 天 vs 5 天；赛制 league；未触发额外赛制或热门修正。
 - 伤停核验：Rayo Vallecano Luiz Felipe（Missing Fixture，Hamstring Injury）；Rayo Vallecano D. Mendez（Missing Fixture，Knee Injury）；Rayo Vallecano M. Kumbulla（Questionable，Muscle Injury）；Alaves F. Garces（Missing Fixture，Suspended）；Alaves T. Mendes（Missing Fixture，Knee Injury）。
 - 天气：Leganés, ES，2026-08-20T21:00 约 27.2°C，降水概率 3%，风速 10.5 km/h。
-- 官方胜平负：2.01/2.84/3.58；本场采集完整度 100%。
+- 官方胜平负：2.03/2.84/3.52；本场采集完整度 100%。
 - 来源：[中国竞彩网](https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu) · [赛事/伤停/近期数据](https://v3.football.api-sports.io/injuries?fixture=1570351) · [赛事主管机构](https://www.laliga.com/en-GB/laliga-easports/results) · [天气](https://api.open-meteo.com/v1/forecast?latitude=40.32718&longitude=-3.7635&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21)
 
 ## 周四003 科林蒂安 vs 罗萨里奥中央
@@ -69,7 +69,7 @@
 ## 周四006 特拉布宗体育 vs 费伦茨瓦罗斯
 
 - 开赛：2026-08-21T01:00:00+08:00；UEFA Europa League / Play-offs；Papara Park。
-- 结论：主胜，防 平；总进球 3；主比分 2-1；安全池 2-1 / 1-1 / 1-0；尾部 2-0；冷门比分 1-2。
+- 结论：主胜，防 平；总进球 2；主比分 2-1；安全池 2-1 / 1-1 / 1-0；尾部 2-0；冷门比分 1-2。
 - 概率：主 44.0% / 平 28.3% / 客 27.8%；信心 中。
 - 近期：主队近 5 场 1胜1平3负，3-7；客队近 7 场 4胜2平1负，12-7。
 - 赛程：休息 5 天 vs 7 天；赛制 two_leg_first；两回合首回合：提高平局与低节奏路径权重。

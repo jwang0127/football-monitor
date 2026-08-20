@@ -1,0 +1,2566 @@
+{
+  "version": "detailed-three-layer-v1",
+  "businessDate": "2026-08-20",
+  "generatedAt": "2026-08-20T14:00:36+08:00",
+  "sportteryLastUpdateTime": "2026-08-20 13:45:13",
+  "matches": [
+    {
+      "matchId": "2040934",
+      "matchNumStr": "周四001",
+      "fixture": {
+        "home": "迈季迈阿宽广",
+        "away": "利雅得新月",
+        "kickoffBeijing": "2026-08-21T02:00:00+08:00",
+        "competition": "Pro League",
+        "round": "Regular Season - 2",
+        "venue": "King Abdullah Sports City Stadium",
+        "referee": "pre-match referee field checked with no value"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "迈季迈阿宽广",
+          "sample": {
+            "matches": 2,
+            "wins": 1,
+            "draws": 0,
+            "losses": 1,
+            "goalsFor": 3,
+            "goalsAgainst": 2,
+            "pointsPerGame": 1.5,
+            "goalDifferencePerGame": 0.5,
+            "recentTrailNewestFirst": "W-L",
+            "lastCompletedAt": "2026-08-17T18:00Z"
+          },
+          "sampleAssessment": "低样本，模型已向市场基准收缩",
+          "lastMatch": "2026-08-17 对 Al Adalah，2-0（胜）",
+          "modelScore": 51.2
+        },
+        "away": {
+          "team": "利雅得新月",
+          "sample": {
+            "matches": 2,
+            "wins": 2,
+            "draws": 0,
+            "losses": 0,
+            "goalsFor": 6,
+            "goalsAgainst": 2,
+            "pointsPerGame": 3.0,
+            "goalDifferencePerGame": 2.0,
+            "recentTrailNewestFirst": "W-W",
+            "lastCompletedAt": "2026-08-17T18:00Z"
+          },
+          "sampleAssessment": "低样本，模型已向市场基准收缩",
+          "lastMatch": "2026-08-17 对 Al Raed，2-0（胜）",
+          "modelScore": 64.4
+        },
+        "judgement": "硬实力层倾向客队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "迈季迈阿宽广",
+          "attackGoalsPerMatch": 1.5,
+          "concededPerMatch": 1.0,
+          "opponentConcededPerMatch": 1.0,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 54.0
+        },
+        "away": {
+          "team": "利雅得新月",
+          "attackGoalsPerMatch": 3.0,
+          "concededPerMatch": 1.0,
+          "opponentConcededPerMatch": 1.0,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 66.0
+        },
+        "headToHead": {
+          "count": 18,
+          "homePerspective": "3胜4平11负，进10失29",
+          "latest": "2026-05-21 Al-Fayha 0-1 Al-Hilal Saudi FC",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=2944-2932"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "3",
+            "odds": 3.75
+          },
+          {
+            "goals": "2",
+            "odds": 4.3
+          },
+          {
+            "goals": "4",
+            "odds": 4.6
+          }
+        ],
+        "judgement": "主队进攻1.5/场对客队失球1.0/场；客队进攻3.0/场对主队失球1.0/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "迈季迈阿宽广",
+          "formTrail": "W-L",
+          "restDays": 3,
+          "motivation": "联赛积分驱动；赛季早段样本不足时不夸大排名含义",
+          "modelScore": 50.0
+        },
+        "away": {
+          "team": "利雅得新月",
+          "formTrail": "W-W",
+          "restDays": 3,
+          "motivation": "联赛积分驱动；赛季早段样本不足时不夸大排名含义",
+          "modelScore": 56.0
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Buraidah, SA",
+          "forecastLocalHour": "2026-08-20T21:00",
+          "temperatureC": 36.6,
+          "precipitationProbabilityPct": 0,
+          "windSpeedKmh": 9.9,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=26.32599&longitude=43.97497&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主3天、客3天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "league",
+        "round": "Regular Season - 2",
+        "applied": [
+          "市场热门与近期证据差距偏大：执行热门降温"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-19 09:30:03",
+        "had": {
+          "h": 10.0,
+          "d": 5.72,
+          "a": 1.17
+        },
+        "marketProbabilities": {
+          "home": 0.0885,
+          "draw": 0.1548,
+          "away": 0.7567
+        },
+        "hhad": {
+          "line": "+2",
+          "home": 1.98,
+          "draw": 3.95,
+          "away": 2.7
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "3",
+            "odds": 3.75
+          },
+          {
+            "goals": "2",
+            "odds": 4.3
+          },
+          {
+            "goals": "4",
+            "odds": 4.6
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "0-2",
+            "odds": 7.5
+          },
+          {
+            "score": "1-2",
+            "odds": 7.75
+          },
+          {
+            "score": "0-3",
+            "odds": 8.5
+          },
+          {
+            "score": "0-1",
+            "odds": 9.0
+          },
+          {
+            "score": "1-3",
+            "odds": 9.0
+          },
+          {
+            "score": "1-1",
+            "odds": 11.0
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "负负",
+            "odds": 1.59
+          },
+          {
+            "path": "平负",
+            "odds": 4.0
+          },
+          {
+            "path": "平平",
+            "odds": 10.5
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 13,
+          "medianOdds": {
+            "home": 10.75,
+            "draw": 6.0,
+            "away": 1.2
+          },
+          "favorite": "客胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": true,
+        "marketFavorite": "客胜",
+        "marketFavoriteProbability": 0.7567,
+        "action": "市场热门与近期证据差距偏大：执行热门降温"
+      },
+      "final": {
+        "result90Minutes": "客胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.1539,
+          "draw": 0.2047,
+          "away": 0.6414
+        },
+        "directionProbability": 0.6414,
+        "frameworkTotal": {
+          "home": 51.88,
+          "away": 62.86
+        },
+        "advancementLean": "联赛赛制，不适用晋级字段",
+        "totalGoals": "3",
+        "mainScore": "0-2",
+        "safeScores": [
+          "0-2",
+          "1-1",
+          "1-2"
+        ],
+        "tailScore": "0-3",
+        "upsetScore": "2-1",
+        "confidence": "较高",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/21827/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/929/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1602981",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=2944-2932",
+        "https://v3.football.api-sports.io/odds?fixture=1602981",
+        "https://www.spl.com.sa/en",
+        "https://api.open-meteo.com/v1/forecast?latitude=26.32599&longitude=43.97497&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040935",
+      "matchNumStr": "周四002",
+      "fixture": {
+        "home": "巴列卡诺",
+        "away": "阿拉维斯",
+        "kickoffBeijing": "2026-08-21T03:00:00+08:00",
+        "competition": "La Liga",
+        "round": "Regular Season - 2",
+        "venue": "Estadio Municipal de Butarque",
+        "referee": "J. Munuera"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "巴列卡诺",
+          "sample": {
+            "matches": 2,
+            "wins": 0,
+            "draws": 0,
+            "losses": 2,
+            "goalsFor": 1,
+            "goalsAgainst": 5,
+            "pointsPerGame": 0.0,
+            "goalDifferencePerGame": -2.0,
+            "recentTrailNewestFirst": "L-L",
+            "lastCompletedAt": "2026-08-15T19:30Z"
+          },
+          "sampleAssessment": "低样本，模型已向市场基准收缩",
+          "lastMatch": "2026-08-15 对 Sevilla，1-2（负）",
+          "modelScore": 35.6
+        },
+        "away": {
+          "team": "阿拉维斯",
+          "sample": {
+            "matches": 2,
+            "wins": 1,
+            "draws": 1,
+            "losses": 0,
+            "goalsFor": 4,
+            "goalsAgainst": 1,
+            "pointsPerGame": 2.0,
+            "goalDifferencePerGame": 1.5,
+            "recentTrailNewestFirst": "W-D",
+            "lastCompletedAt": "2026-08-15T17:30Z"
+          },
+          "sampleAssessment": "低样本，模型已向市场基准收缩",
+          "lastMatch": "2026-08-15 对 Getafe，3-0（胜）",
+          "modelScore": 56.8
+        },
+        "judgement": "硬实力层倾向客队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "巴列卡诺",
+          "attackGoalsPerMatch": 0.5,
+          "concededPerMatch": 2.5,
+          "opponentConcededPerMatch": 0.5,
+          "confirmedInjuryRecords": [
+            {
+              "team": "Rayo Vallecano",
+              "player": "Luiz Felipe",
+              "type": "Missing Fixture",
+              "reason": "Hamstring Injury"
+            },
+            {
+              "team": "Rayo Vallecano",
+              "player": "D. Mendez",
+              "type": "Missing Fixture",
+              "reason": "Knee Injury"
+            },
+            {
+              "team": "Rayo Vallecano",
+              "player": "M. Kumbulla",
+              "type": "Questionable",
+              "reason": "Muscle Injury"
+            }
+          ],
+          "injuryAudit": "伤停端点核验，去重后3条",
+          "modelScore": 44.0
+        },
+        "away": {
+          "team": "阿拉维斯",
+          "attackGoalsPerMatch": 2.0,
+          "concededPerMatch": 0.5,
+          "opponentConcededPerMatch": 2.5,
+          "confirmedInjuryRecords": [
+            {
+              "team": "Alaves",
+              "player": "F. Garces",
+              "type": "Missing Fixture",
+              "reason": "Suspended"
+            },
+            {
+              "team": "Alaves",
+              "player": "T. Mendes",
+              "type": "Missing Fixture",
+              "reason": "Knee Injury"
+            }
+          ],
+          "injuryAudit": "伤停端点核验，去重后2条",
+          "modelScore": 42.0
+        },
+        "headToHead": {
+          "count": 11,
+          "homePerspective": "7胜0平4负，进12失10",
+          "latest": "2026-05-23 Alaves 1-2 Rayo Vallecano",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=728-542"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "2",
+            "odds": 3.05
+          },
+          {
+            "goals": "1",
+            "odds": 3.55
+          },
+          {
+            "goals": "3",
+            "odds": 4.25
+          }
+        ],
+        "judgement": "主队进攻0.5/场对客队失球0.5/场；客队进攻2.0/场对主队失球2.5/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "巴列卡诺",
+          "formTrail": "L-L",
+          "restDays": 4,
+          "motivation": "联赛积分驱动；赛季早段样本不足时不夸大排名含义",
+          "modelScore": 42.5
+        },
+        "away": {
+          "team": "阿拉维斯",
+          "formTrail": "W-D",
+          "restDays": 5,
+          "motivation": "联赛积分驱动；赛季早段样本不足时不夸大排名含义",
+          "modelScore": 53.5
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Leganés, ES",
+          "forecastLocalHour": "2026-08-20T21:00",
+          "temperatureC": 27.2,
+          "precipitationProbabilityPct": 3,
+          "windSpeedKmh": 10.5,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=40.32718&longitude=-3.7635&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主4天、客5天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "league",
+        "round": "Regular Season - 2",
+        "applied": [
+          "未触发额外赛制或热门修正"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-20 12:43:31",
+        "had": {
+          "h": 2.03,
+          "d": 2.84,
+          "a": 3.52
+        },
+        "marketProbabilities": {
+          "home": 0.4364,
+          "draw": 0.3119,
+          "away": 0.2517
+        },
+        "hhad": {
+          "line": "-1",
+          "home": 4.66,
+          "draw": 3.4,
+          "away": 1.61
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "2",
+            "odds": 3.05
+          },
+          {
+            "goals": "1",
+            "odds": 3.55
+          },
+          {
+            "goals": "3",
+            "odds": 4.25
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "1-0",
+            "odds": 5.7
+          },
+          {
+            "score": "1-1",
+            "odds": 6.0
+          },
+          {
+            "score": "0-0",
+            "odds": 6.9
+          },
+          {
+            "score": "2-0",
+            "odds": 8.0
+          },
+          {
+            "score": "0-1",
+            "odds": 8.25
+          },
+          {
+            "score": "2-1",
+            "odds": 8.25
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "胜胜",
+            "odds": 3.45
+          },
+          {
+            "path": "平平",
+            "odds": 4.15
+          },
+          {
+            "path": "平胜",
+            "odds": 4.6
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 14,
+          "medianOdds": {
+            "home": 2.275,
+            "draw": 3.0,
+            "away": 3.55
+          },
+          "favorite": "主胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": false,
+        "marketFavorite": "主胜",
+        "marketFavoriteProbability": 0.4364,
+        "action": "未触发额外赛制或热门修正"
+      },
+      "final": {
+        "result90Minutes": "主胜",
+        "protection": "客胜",
+        "probabilities": {
+          "home": 0.3889,
+          "draw": 0.3013,
+          "away": 0.3099
+        },
+        "directionProbability": 0.3889,
+        "frameworkTotal": {
+          "home": 40.27,
+          "away": 50.8
+        },
+        "advancementLean": "联赛赛制，不适用晋级字段",
+        "totalGoals": "2",
+        "mainScore": "1-0",
+        "safeScores": [
+          "1-0",
+          "0-1",
+          "2-0"
+        ],
+        "tailScore": "2-1",
+        "upsetScore": "0-1",
+        "confidence": "中",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/101/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/96/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1570351",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=728-542",
+        "https://v3.football.api-sports.io/odds?fixture=1570351",
+        "https://www.laliga.com/en-GB/laliga-easports/results",
+        "https://api.open-meteo.com/v1/forecast?latitude=40.32718&longitude=-3.7635&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040936",
+      "matchNumStr": "周四003",
+      "fixture": {
+        "home": "科林蒂安",
+        "away": "罗萨里奥中央",
+        "kickoffBeijing": "2026-08-21T08:30:00+08:00",
+        "competition": "CONMEBOL Libertadores",
+        "round": "Round of 16",
+        "venue": "Neo Quimica Arena",
+        "referee": "A. Herrera"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "科林蒂安",
+          "sample": {
+            "matches": 8,
+            "wins": 3,
+            "draws": 3,
+            "losses": 2,
+            "goalsFor": 9,
+            "goalsAgainst": 6,
+            "pointsPerGame": 1.5,
+            "goalDifferencePerGame": 0.375,
+            "recentTrailNewestFirst": "L-D-W-W-L-D-D-W",
+            "lastCompletedAt": "2026-08-16T22:30Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-16 对 Cruzeiro，1-2（负）",
+          "modelScore": 52.25
+        },
+        "away": {
+          "team": "罗萨里奥中央",
+          "sample": {
+            "matches": 8,
+            "wins": 3,
+            "draws": 2,
+            "losses": 3,
+            "goalsFor": 5,
+            "goalsAgainst": 7,
+            "pointsPerGame": 1.375,
+            "goalDifferencePerGame": -0.25,
+            "recentTrailNewestFirst": "W-D-W-W-D-L-L-L",
+            "lastCompletedAt": "2026-08-16T23:15Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-16 对 Barracas Central，1-0（胜）",
+          "modelScore": 46.5
+        },
+        "judgement": "硬实力层倾向主队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "科林蒂安",
+          "attackGoalsPerMatch": 1.12,
+          "concededPerMatch": 0.75,
+          "opponentConcededPerMatch": 0.88,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 52.0
+        },
+        "away": {
+          "team": "罗萨里奥中央",
+          "attackGoalsPerMatch": 0.62,
+          "concededPerMatch": 0.88,
+          "opponentConcededPerMatch": 0.75,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 49.0
+        },
+        "headToHead": {
+          "count": 1,
+          "homePerspective": "0胜1平0负，进0失0",
+          "latest": "2026-08-14 Rosario Central 0-0 Corinthians",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=131-437"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "2",
+            "odds": 3.05
+          },
+          {
+            "goals": "1",
+            "odds": 3.25
+          },
+          {
+            "goals": "3",
+            "odds": 4.8
+          }
+        ],
+        "judgement": "主队进攻1.12/场对客队失球0.88/场；客队进攻0.62/场对主队失球0.75/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "科林蒂安",
+          "formTrail": "L-D-W-W-L-D-D-W",
+          "restDays": 4,
+          "motivation": "次回合主场需要结合首回合比分管理晋级路径",
+          "modelScore": 50.0
+        },
+        "away": {
+          "team": "罗萨里奥中央",
+          "formTrail": "W-D-W-W-D-L-L-L",
+          "restDays": 4,
+          "motivation": "次回合客队需在防守与追分之间动态切换",
+          "modelScore": 48.75
+        },
+        "weather": {
+          "status": "checked",
+          "location": "São Paulo, BR",
+          "forecastLocalHour": "2026-08-20T21:00",
+          "temperatureC": 25.3,
+          "precipitationProbabilityPct": 0,
+          "windSpeedKmh": 6.2,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=-23.5475&longitude=-46.63611&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-20&end_date=2026-08-22",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主4天、客4天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "two_leg_second",
+        "round": "Round of 16",
+        "applied": [
+          "未触发额外赛制或热门修正"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-19 09:30:03",
+        "had": {
+          "h": 1.86,
+          "d": 2.67,
+          "a": 4.6
+        },
+        "marketProbabilities": {
+          "home": 0.476,
+          "draw": 0.3316,
+          "away": 0.1925
+        },
+        "hhad": {
+          "line": "-1",
+          "home": 4.12,
+          "draw": 3.2,
+          "away": 1.74
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "2",
+            "odds": 3.05
+          },
+          {
+            "goals": "1",
+            "odds": 3.25
+          },
+          {
+            "goals": "3",
+            "odds": 4.8
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "1-0",
+            "odds": 4.7
+          },
+          {
+            "score": "0-0",
+            "odds": 5.4
+          },
+          {
+            "score": "1-1",
+            "odds": 6.5
+          },
+          {
+            "score": "2-0",
+            "odds": 7.5
+          },
+          {
+            "score": "0-1",
+            "odds": 8.0
+          },
+          {
+            "score": "2-1",
+            "odds": 8.5
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "胜胜",
+            "odds": 3.4
+          },
+          {
+            "path": "平平",
+            "odds": 3.7
+          },
+          {
+            "path": "平胜",
+            "odds": 4.3
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 14,
+          "medianOdds": {
+            "home": 1.975,
+            "draw": 3.01,
+            "away": 4.5
+          },
+          "favorite": "主胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": false,
+        "marketFavorite": "主胜",
+        "marketFavoriteProbability": 0.476,
+        "action": "未触发额外赛制或热门修正"
+      },
+      "final": {
+        "result90Minutes": "主胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.4766,
+          "draw": 0.3142,
+          "away": 0.2093
+        },
+        "directionProbability": 0.4766,
+        "frameworkTotal": {
+          "home": 51.6,
+          "away": 47.94
+        },
+        "advancementLean": "科林蒂安（两回合倾向，次回合前必须重算）",
+        "totalGoals": "2",
+        "mainScore": "1-0",
+        "safeScores": [
+          "1-0",
+          "0-0",
+          "2-0"
+        ],
+        "tailScore": "2-1",
+        "upsetScore": "0-1",
+        "confidence": "较高",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/874/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/17/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1547767",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=131-437",
+        "https://v3.football.api-sports.io/odds?fixture=1547767",
+        "https://conmebollibertadores.com/",
+        "https://api.open-meteo.com/v1/forecast?latitude=-23.5475&longitude=-46.63611&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-20&end_date=2026-08-22"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040951",
+      "matchNumStr": "周四004",
+      "fixture": {
+        "home": "阿拉木图凯拉特",
+        "away": "安德莱赫特",
+        "kickoffBeijing": "2026-08-20T23:00:00+08:00",
+        "competition": "UEFA Europa League",
+        "round": "Play-offs",
+        "venue": "Almaty Central Stadium",
+        "referee": "pre-match referee field checked with no value"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "阿拉木图凯拉特",
+          "sample": {
+            "matches": 6,
+            "wins": 3,
+            "draws": 0,
+            "losses": 3,
+            "goalsFor": 5,
+            "goalsAgainst": 4,
+            "pointsPerGame": 1.5,
+            "goalDifferencePerGame": 0.167,
+            "recentTrailNewestFirst": "L-L-W-L-W-W",
+            "lastCompletedAt": "2026-08-11T15:00Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-11 对 Levski Sofia，0-1（负）",
+          "modelScore": 51.0
+        },
+        "away": {
+          "team": "安德莱赫特",
+          "sample": {
+            "matches": 6,
+            "wins": 4,
+            "draws": 1,
+            "losses": 1,
+            "goalsFor": 10,
+            "goalsAgainst": 6,
+            "pointsPerGame": 2.167,
+            "goalDifferencePerGame": 0.667,
+            "recentTrailNewestFirst": "L-W-W-W-W-D",
+            "lastCompletedAt": "2026-08-16T11:30Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-16 对 Waasland-Beveren，0-1（负）",
+          "modelScore": 64.67
+        },
+        "judgement": "硬实力层倾向客队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "阿拉木图凯拉特",
+          "attackGoalsPerMatch": 0.83,
+          "concededPerMatch": 0.67,
+          "opponentConcededPerMatch": 1.0,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 48.67
+        },
+        "away": {
+          "team": "安德莱赫特",
+          "attackGoalsPerMatch": 1.67,
+          "concededPerMatch": 1.0,
+          "opponentConcededPerMatch": 0.67,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 58.0
+        },
+        "headToHead": {
+          "count": 0,
+          "homePerspective": "0胜0平0负，进0失0",
+          "latest": "接口已核验，历史交锋记录数为0",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=664-554"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "2",
+            "odds": 3.4
+          },
+          {
+            "goals": "3",
+            "odds": 3.7
+          },
+          {
+            "goals": "1",
+            "odds": 4.6
+          }
+        ],
+        "judgement": "主队进攻0.83/场对客队失球1.0/场；客队进攻1.67/场对主队失球0.67/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "阿拉木图凯拉特",
+          "formTrail": "L-L-W-L-W-W",
+          "restDays": 9,
+          "motivation": "主场首回合需建立领先，同时控制被反击",
+          "modelScore": 57.5
+        },
+        "away": {
+          "team": "安德莱赫特",
+          "formTrail": "L-W-W-W-W-D",
+          "restDays": 4,
+          "motivation": "客场首回合优先控制失球，为次回合保留空间",
+          "modelScore": 49.17
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Almaty, KZ",
+          "forecastLocalHour": "2026-08-20T20:00",
+          "temperatureC": 27.6,
+          "precipitationProbabilityPct": 0,
+          "windSpeedKmh": 3.4,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=43.25249&longitude=76.9115&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主9天、客4天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "two_leg_first",
+        "round": "Play-offs",
+        "applied": [
+          "两回合首回合：提高平局与低节奏路径权重"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-20 09:21:04",
+        "had": {
+          "h": 3.35,
+          "d": 3.25,
+          "a": 1.91
+        },
+        "marketProbabilities": {
+          "home": 0.2642,
+          "draw": 0.2724,
+          "away": 0.4634
+        },
+        "hhad": {
+          "line": "+1",
+          "home": 1.68,
+          "draw": 3.6,
+          "away": 3.9
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "2",
+            "odds": 3.4
+          },
+          {
+            "goals": "3",
+            "odds": 3.7
+          },
+          {
+            "goals": "1",
+            "odds": 4.6
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "1-1",
+            "odds": 6.5
+          },
+          {
+            "score": "1-2",
+            "odds": 7.0
+          },
+          {
+            "score": "0-1",
+            "odds": 8.0
+          },
+          {
+            "score": "0-2",
+            "odds": 10.0
+          },
+          {
+            "score": "2-1",
+            "odds": 10.0
+          },
+          {
+            "score": "1-0",
+            "odds": 10.5
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "负负",
+            "odds": 3.2
+          },
+          {
+            "path": "平负",
+            "odds": 5.0
+          },
+          {
+            "path": "平平",
+            "odds": 5.2
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 14,
+          "medianOdds": {
+            "home": 3.4,
+            "draw": 3.4,
+            "away": 2.1
+          },
+          "favorite": "客胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": false,
+        "marketFavorite": "客胜",
+        "marketFavoriteProbability": 0.4634,
+        "action": "未触发热门降温"
+      },
+      "final": {
+        "result90Minutes": "客胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.2614,
+          "draw": 0.3221,
+          "away": 0.4165
+        },
+        "directionProbability": 0.4165,
+        "frameworkTotal": {
+          "home": 51.81,
+          "away": 58.46
+        },
+        "advancementLean": "安德莱赫特（两回合倾向，次回合前必须重算）",
+        "totalGoals": "2",
+        "mainScore": "1-2",
+        "safeScores": [
+          "1-2",
+          "1-1",
+          "0-1"
+        ],
+        "tailScore": "0-2",
+        "upsetScore": "2-1",
+        "confidence": "中",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/2528/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/441/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1623435",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=664-554",
+        "https://v3.football.api-sports.io/odds?fixture=1623435",
+        "https://www.uefa.com/uefaeuropaleague/accesslist/",
+        "https://api.open-meteo.com/v1/forecast?latitude=43.25249&longitude=76.9115&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040952",
+      "matchNumStr": "周四005",
+      "fixture": {
+        "home": "米亚尔比",
+        "away": "萨尔茨堡",
+        "kickoffBeijing": "2026-08-21T00:00:00+08:00",
+        "competition": "UEFA Europa League",
+        "round": "Play-offs",
+        "venue": "Strandvallen",
+        "referee": "pre-match referee field checked with no value"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "米亚尔比",
+          "sample": {
+            "matches": 8,
+            "wins": 2,
+            "draws": 2,
+            "losses": 4,
+            "goalsFor": 9,
+            "goalsAgainst": 10,
+            "pointsPerGame": 1.0,
+            "goalDifferencePerGame": -0.125,
+            "recentTrailNewestFirst": "W-L-L-L-D-L-W-D",
+            "lastCompletedAt": "2026-08-15T13:00Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-15 对 IK Sirius，4-3（胜）",
+          "modelScore": 41.25
+        },
+        "away": {
+          "team": "萨尔茨堡",
+          "sample": {
+            "matches": 8,
+            "wins": 5,
+            "draws": 3,
+            "losses": 0,
+            "goalsFor": 16,
+            "goalsAgainst": 5,
+            "pointsPerGame": 2.25,
+            "goalDifferencePerGame": 1.375,
+            "recentTrailNewestFirst": "W-D-D-W-W-W-W-D",
+            "lastCompletedAt": "2026-08-16T15:00Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-16 对 WSG Swarovski Tirol，3-0（胜）",
+          "modelScore": 70.25
+        },
+        "judgement": "硬实力层倾向客队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "米亚尔比",
+          "attackGoalsPerMatch": 1.12,
+          "concededPerMatch": 1.25,
+          "opponentConcededPerMatch": 0.62,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 54.0
+        },
+        "away": {
+          "team": "萨尔茨堡",
+          "attackGoalsPerMatch": 2.0,
+          "concededPerMatch": 0.62,
+          "opponentConcededPerMatch": 1.25,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 56.0
+        },
+        "headToHead": {
+          "count": 0,
+          "homePerspective": "0胜0平0负，进0失0",
+          "latest": "接口已核验，历史交锋记录数为0",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=2240-571"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "3",
+            "odds": 3.6
+          },
+          {
+            "goals": "2",
+            "odds": 4.2
+          },
+          {
+            "goals": "4",
+            "odds": 4.7
+          }
+        ],
+        "judgement": "主队进攻1.12/场对客队失球0.62/场；客队进攻2.0/场对主队失球1.25/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "米亚尔比",
+          "formTrail": "W-L-L-L-D-L-W-D",
+          "restDays": 5,
+          "motivation": "主场首回合需建立领先，同时控制被反击",
+          "modelScore": 46.5
+        },
+        "away": {
+          "team": "萨尔茨堡",
+          "formTrail": "W-D-D-W-W-W-W-D",
+          "restDays": 4,
+          "motivation": "客场首回合优先控制失球，为次回合保留空间",
+          "modelScore": 56.0
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Hällevik, SE",
+          "forecastLocalHour": "2026-08-20T18:00",
+          "temperatureC": 20.1,
+          "precipitationProbabilityPct": 13,
+          "windSpeedKmh": 14.0,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=56.01667&longitude=14.7&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主5天、客4天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "two_leg_first",
+        "round": "Play-offs",
+        "applied": [
+          "两回合首回合：提高平局与低节奏路径权重"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-20 09:21:04",
+        "had": {
+          "h": 4.15,
+          "d": 3.85,
+          "a": 1.59
+        },
+        "marketProbabilities": {
+          "home": 0.2133,
+          "draw": 0.2299,
+          "away": 0.5568
+        },
+        "hhad": {
+          "line": "+1",
+          "home": 2.04,
+          "draw": 3.55,
+          "away": 2.8
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "3",
+            "odds": 3.6
+          },
+          {
+            "goals": "2",
+            "odds": 4.2
+          },
+          {
+            "goals": "4",
+            "odds": 4.7
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "1-2",
+            "odds": 7.0
+          },
+          {
+            "score": "1-1",
+            "odds": 7.8
+          },
+          {
+            "score": "0-1",
+            "odds": 10.0
+          },
+          {
+            "score": "0-2",
+            "odds": 10.0
+          },
+          {
+            "score": "1-3",
+            "odds": 11.0
+          },
+          {
+            "score": "2-1",
+            "odds": 13.0
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "负负",
+            "odds": 2.5
+          },
+          {
+            "path": "平负",
+            "odds": 4.9
+          },
+          {
+            "path": "平平",
+            "odds": 6.7
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 14,
+          "medianOdds": {
+            "home": 4.1,
+            "draw": 3.9,
+            "away": 1.75
+          },
+          "favorite": "客胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": false,
+        "marketFavorite": "客胜",
+        "marketFavoriteProbability": 0.5568,
+        "action": "未触发热门降温"
+      },
+      "final": {
+        "result90Minutes": "客胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.2015,
+          "draw": 0.2826,
+          "away": 0.5159
+        },
+        "directionProbability": 0.5159,
+        "frameworkTotal": {
+          "home": 47.02,
+          "away": 61.7
+        },
+        "advancementLean": "萨尔茨堡（两回合倾向，次回合前必须重算）",
+        "totalGoals": "3",
+        "mainScore": "1-2",
+        "safeScores": [
+          "1-2",
+          "1-1",
+          "0-1"
+        ],
+        "tailScore": "0-2",
+        "upsetScore": "2-1",
+        "confidence": "较高",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/20301/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/2790/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1623436",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=2240-571",
+        "https://v3.football.api-sports.io/odds?fixture=1623436",
+        "https://www.uefa.com/uefaeuropaleague/accesslist/",
+        "https://api.open-meteo.com/v1/forecast?latitude=56.01667&longitude=14.7&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040953",
+      "matchNumStr": "周四006",
+      "fixture": {
+        "home": "特拉布宗体育",
+        "away": "费伦茨瓦罗斯",
+        "kickoffBeijing": "2026-08-21T01:00:00+08:00",
+        "competition": "UEFA Europa League",
+        "round": "Play-offs",
+        "venue": "Papara Park",
+        "referee": "pre-match referee field checked with no value"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "特拉布宗体育",
+          "sample": {
+            "matches": 5,
+            "wins": 1,
+            "draws": 1,
+            "losses": 3,
+            "goalsFor": 3,
+            "goalsAgainst": 7,
+            "pointsPerGame": 0.8,
+            "goalDifferencePerGame": -0.8,
+            "recentTrailNewestFirst": "D-L-W-L-L",
+            "lastCompletedAt": "2026-08-15T16:00Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-15 对 Kasimpasa，1-1（平）",
+          "modelScore": 34.0
+        },
+        "away": {
+          "team": "费伦茨瓦罗斯",
+          "sample": {
+            "matches": 7,
+            "wins": 4,
+            "draws": 2,
+            "losses": 1,
+            "goalsFor": 12,
+            "goalsAgainst": 7,
+            "pointsPerGame": 2.0,
+            "goalDifferencePerGame": 0.714,
+            "recentTrailNewestFirst": "D-L-W-D-W-W-W",
+            "lastCompletedAt": "2026-08-13T17:00Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-13 对 Gornik Zabrze，1-1（平）",
+          "modelScore": 62.28
+        },
+        "judgement": "硬实力层倾向客队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "特拉布宗体育",
+          "attackGoalsPerMatch": 0.6,
+          "concededPerMatch": 1.4,
+          "opponentConcededPerMatch": 1.0,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 46.8
+        },
+        "away": {
+          "team": "费伦茨瓦罗斯",
+          "attackGoalsPerMatch": 1.71,
+          "concededPerMatch": 1.0,
+          "opponentConcededPerMatch": 1.4,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 52.51
+        },
+        "headToHead": {
+          "count": 2,
+          "homePerspective": "1胜0平1负，进3失3",
+          "latest": "2022-11-03 Trabzonspor 1-0 Ferencvarosi TC",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=998-651"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "2",
+            "odds": 3.55
+          },
+          {
+            "goals": "3",
+            "odds": 3.55
+          },
+          {
+            "goals": "4",
+            "odds": 5.2
+          }
+        ],
+        "judgement": "主队进攻0.6/场对客队失球1.0/场；客队进攻1.71/场对主队失球1.4/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "特拉布宗体育",
+          "formTrail": "D-L-W-L-L",
+          "restDays": 5,
+          "motivation": "主场首回合需建立领先，同时控制被反击",
+          "modelScore": 40.0
+        },
+        "away": {
+          "team": "费伦茨瓦罗斯",
+          "formTrail": "D-L-W-D-W-W-W",
+          "restDays": 7,
+          "motivation": "客场首回合优先控制失球，为次回合保留空间",
+          "modelScore": 58.0
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Trabzon, TR",
+          "forecastLocalHour": "2026-08-20T20:00",
+          "temperatureC": 23.4,
+          "precipitationProbabilityPct": 0,
+          "windSpeedKmh": 1.6,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=41.005&longitude=39.72694&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主5天、客7天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "two_leg_first",
+        "round": "Play-offs",
+        "applied": [
+          "两回合首回合：提高平局与低节奏路径权重"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-20 13:40:52",
+        "had": {
+          "h": 1.53,
+          "d": 3.77,
+          "a": 4.75
+        },
+        "marketProbabilities": {
+          "home": 0.5787,
+          "draw": 0.2349,
+          "away": 0.1864
+        },
+        "hhad": {
+          "line": "-1",
+          "home": 2.65,
+          "draw": 3.47,
+          "away": 2.16
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "2",
+            "odds": 3.55
+          },
+          {
+            "goals": "3",
+            "odds": 3.55
+          },
+          {
+            "goals": "4",
+            "odds": 5.2
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "2-1",
+            "odds": 6.75
+          },
+          {
+            "score": "1-1",
+            "odds": 7.5
+          },
+          {
+            "score": "1-0",
+            "odds": 8.5
+          },
+          {
+            "score": "2-0",
+            "odds": 8.5
+          },
+          {
+            "score": "3-1",
+            "odds": 11.0
+          },
+          {
+            "score": "3-0",
+            "odds": 13.0
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "胜胜",
+            "odds": 2.28
+          },
+          {
+            "path": "平胜",
+            "odds": 4.5
+          },
+          {
+            "path": "平平",
+            "odds": 6.5
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 13,
+          "medianOdds": {
+            "home": 1.62,
+            "draw": 4.12,
+            "away": 4.75
+          },
+          "favorite": "主胜",
+          "sampleBookmakers": [
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet",
+            "Betfair"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": false,
+        "marketFavorite": "主胜",
+        "marketFavoriteProbability": 0.5787,
+        "action": "未触发热门降温"
+      },
+      "final": {
+        "result90Minutes": "主胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.4399,
+          "draw": 0.2826,
+          "away": 0.2775
+        },
+        "directionProbability": 0.4399,
+        "frameworkTotal": {
+          "home": 39.98,
+          "away": 57.79
+        },
+        "advancementLean": "特拉布宗体育（两回合倾向，次回合前必须重算）",
+        "totalGoals": "2",
+        "mainScore": "2-1",
+        "safeScores": [
+          "2-1",
+          "1-1",
+          "1-0"
+        ],
+        "tailScore": "2-0",
+        "upsetScore": "1-2",
+        "confidence": "中",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/997/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/622/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1623439",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=998-651",
+        "https://v3.football.api-sports.io/odds?fixture=1623439",
+        "https://www.uefa.com/uefaeuropaleague/accesslist/",
+        "https://api.open-meteo.com/v1/forecast?latitude=41.005&longitude=39.72694&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040948",
+      "matchNumStr": "周四007",
+      "fixture": {
+        "home": "波兹南莱赫",
+        "away": "图恩",
+        "kickoffBeijing": "2026-08-21T01:00:00+08:00",
+        "competition": "UEFA Europa League",
+        "round": "Play-offs",
+        "venue": "Stadion Poznan",
+        "referee": "pre-match referee field checked with no value"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "波兹南莱赫",
+          "sample": {
+            "matches": 4,
+            "wins": 3,
+            "draws": 0,
+            "losses": 1,
+            "goalsFor": 11,
+            "goalsAgainst": 5,
+            "pointsPerGame": 2.25,
+            "goalDifferencePerGame": 1.5,
+            "recentTrailNewestFirst": "W-W-L-W",
+            "lastCompletedAt": "2026-08-14T18:00Z"
+          },
+          "sampleAssessment": "中等",
+          "lastMatch": "2026-08-14 对 KI Klaksvik，5-0（胜）",
+          "modelScore": 66.8
+        },
+        "away": {
+          "team": "图恩",
+          "sample": {
+            "matches": 4,
+            "wins": 1,
+            "draws": 1,
+            "losses": 2,
+            "goalsFor": 8,
+            "goalsAgainst": 7,
+            "pointsPerGame": 1.0,
+            "goalDifferencePerGame": 0.25,
+            "recentTrailNewestFirst": "L-W-L-D",
+            "lastCompletedAt": "2026-08-13T17:30Z"
+          },
+          "sampleAssessment": "中等",
+          "lastMatch": "2026-08-13 对 Vikingur Reykjavik，2-3（负）",
+          "modelScore": 44.8
+        },
+        "judgement": "硬实力层倾向主队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "波兹南莱赫",
+          "attackGoalsPerMatch": 2.75,
+          "concededPerMatch": 1.25,
+          "opponentConcededPerMatch": 1.75,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 58.0
+        },
+        "away": {
+          "team": "图恩",
+          "attackGoalsPerMatch": 2.0,
+          "concededPerMatch": 1.75,
+          "opponentConcededPerMatch": 1.25,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 56.0
+        },
+        "headToHead": {
+          "count": 0,
+          "homePerspective": "0胜0平0负，进0失0",
+          "latest": "接口已核验，历史交锋记录数为0",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=347-1012"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "3",
+            "odds": 3.6
+          },
+          {
+            "goals": "2",
+            "odds": 3.9
+          },
+          {
+            "goals": "4",
+            "odds": 4.9
+          }
+        ],
+        "judgement": "主队进攻2.75/场对客队失球1.75/场；客队进攻2.0/场对主队失球1.25/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "波兹南莱赫",
+          "formTrail": "W-W-L-W",
+          "restDays": 5,
+          "motivation": "主场首回合需建立领先，同时控制被反击",
+          "modelScore": 54.5
+        },
+        "away": {
+          "team": "图恩",
+          "formTrail": "L-W-L-D",
+          "restDays": 6,
+          "motivation": "客场首回合优先控制失球，为次回合保留空间",
+          "modelScore": 47.5
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Poznan, PL",
+          "forecastLocalHour": "2026-08-20T19:00",
+          "temperatureC": 23.3,
+          "precipitationProbabilityPct": 0,
+          "windSpeedKmh": 6.2,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=52.40692&longitude=16.92993&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主5天、客6天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "two_leg_first",
+        "round": "Play-offs",
+        "applied": [
+          "两回合首回合：提高平局与低节奏路径权重"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-20 09:21:04",
+        "had": {
+          "h": 1.4,
+          "d": 4.15,
+          "a": 5.75
+        },
+        "marketProbabilities": {
+          "home": 0.6326,
+          "draw": 0.2134,
+          "away": 0.154
+        },
+        "hhad": {
+          "line": "-1",
+          "home": 2.31,
+          "draw": 3.45,
+          "away": 2.46
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "3",
+            "odds": 3.6
+          },
+          {
+            "goals": "2",
+            "odds": 3.9
+          },
+          {
+            "goals": "4",
+            "odds": 4.9
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "2-1",
+            "odds": 7.0
+          },
+          {
+            "score": "1-0",
+            "odds": 8.0
+          },
+          {
+            "score": "1-1",
+            "odds": 8.0
+          },
+          {
+            "score": "2-0",
+            "odds": 8.0
+          },
+          {
+            "score": "3-1",
+            "odds": 10.5
+          },
+          {
+            "score": "3-0",
+            "odds": 11.0
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "胜胜",
+            "odds": 2.05
+          },
+          {
+            "path": "平胜",
+            "odds": 4.5
+          },
+          {
+            "path": "平平",
+            "odds": 7.0
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 14,
+          "medianOdds": {
+            "home": 1.53,
+            "draw": 4.25,
+            "away": 5.39
+          },
+          "favorite": "主胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": false,
+        "marketFavorite": "主胜",
+        "marketFavoriteProbability": 0.6326,
+        "action": "未触发热门降温"
+      },
+      "final": {
+        "result90Minutes": "主胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.5859,
+          "draw": 0.2656,
+          "away": 0.1485
+        },
+        "directionProbability": 0.5859,
+        "frameworkTotal": {
+          "home": 60.64,
+          "away": 49.39
+        },
+        "advancementLean": "波兹南莱赫（两回合倾向，次回合前必须重算）",
+        "totalGoals": "3",
+        "mainScore": "2-1",
+        "safeScores": [
+          "2-1",
+          "1-1",
+          "1-0"
+        ],
+        "tailScore": "2-0",
+        "upsetScore": "1-2",
+        "confidence": "较高",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/2990/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/3024/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1627595",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=347-1012",
+        "https://v3.football.api-sports.io/odds?fixture=1627595",
+        "https://www.uefa.com/uefaeuropaleague/accesslist/",
+        "https://api.open-meteo.com/v1/forecast?latitude=52.40692&longitude=16.92993&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040949",
+      "matchNumStr": "周四008",
+      "fixture": {
+        "home": "贝尔格莱德红星",
+        "away": "比尔森",
+        "kickoffBeijing": "2026-08-21T02:00:00+08:00",
+        "competition": "UEFA Europa League",
+        "round": "Play-offs",
+        "venue": "Stadion Rajko Mit",
+        "referee": "pre-match referee field checked with no value"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "贝尔格莱德红星",
+          "sample": {
+            "matches": 5,
+            "wins": 2,
+            "draws": 0,
+            "losses": 3,
+            "goalsFor": 9,
+            "goalsAgainst": 5,
+            "pointsPerGame": 1.2,
+            "goalDifferencePerGame": 0.8,
+            "recentTrailNewestFirst": "L-L-W-W-L",
+            "lastCompletedAt": "2026-08-11T18:00Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-11 对 Hapoel Be'er，0-2（负）",
+          "modelScore": 50.0
+        },
+        "away": {
+          "team": "比尔森",
+          "sample": {
+            "matches": 1,
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goalsFor": 3,
+            "goalsAgainst": 2,
+            "pointsPerGame": 3.0,
+            "goalDifferencePerGame": 1.0,
+            "recentTrailNewestFirst": "W",
+            "lastCompletedAt": "2026-08-15T18:00:00+00:00"
+          },
+          "sampleAssessment": "低样本，模型已向市场基准收缩",
+          "lastMatch": "2026-08-15 对 Zlín，3-2（胜）",
+          "modelScore": 56.0
+        },
+        "judgement": "硬实力层倾向客队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "贝尔格莱德红星",
+          "attackGoalsPerMatch": 1.8,
+          "concededPerMatch": 1.0,
+          "opponentConcededPerMatch": 2.0,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 48.4
+        },
+        "away": {
+          "team": "比尔森",
+          "attackGoalsPerMatch": 3.0,
+          "concededPerMatch": 2.0,
+          "opponentConcededPerMatch": 1.0,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 66.0
+        },
+        "headToHead": {
+          "count": 0,
+          "homePerspective": "0胜0平0负，进0失0",
+          "latest": "接口已核验，历史交锋记录数为0",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=598-567"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "2",
+            "odds": 3.6
+          },
+          {
+            "goals": "3",
+            "odds": 3.65
+          },
+          {
+            "goals": "1",
+            "odds": 5.0
+          }
+        ],
+        "judgement": "主队进攻1.8/场对客队失球2.0/场；客队进攻3.0/场对主队失球1.0/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "贝尔格莱德红星",
+          "formTrail": "L-L-W-W-L",
+          "restDays": 9,
+          "motivation": "主场首回合需建立领先，同时控制被反击",
+          "modelScore": 53.0
+        },
+        "away": {
+          "team": "比尔森",
+          "formTrail": "W",
+          "restDays": 5,
+          "motivation": "客场首回合优先控制失球，为次回合保留空间",
+          "modelScore": 47.0
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Belgrade, RS",
+          "forecastLocalHour": "2026-08-20T20:00",
+          "temperatureC": 35.8,
+          "precipitationProbabilityPct": 0,
+          "windSpeedKmh": 13.7,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=44.80401&longitude=20.46513&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主9天、客5天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "two_leg_first",
+        "round": "Play-offs",
+        "applied": [
+          "两回合首回合：提高平局与低节奏路径权重"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-20 09:21:04",
+        "had": {
+          "h": 1.61,
+          "d": 3.65,
+          "a": 4.28
+        },
+        "marketProbabilities": {
+          "home": 0.5503,
+          "draw": 0.2427,
+          "away": 0.207
+        },
+        "hhad": {
+          "line": "-1",
+          "home": 2.96,
+          "draw": 3.4,
+          "away": 2.01
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "2",
+            "odds": 3.6
+          },
+          {
+            "goals": "3",
+            "odds": 3.65
+          },
+          {
+            "goals": "1",
+            "odds": 5.0
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "1-1",
+            "odds": 7.0
+          },
+          {
+            "score": "2-1",
+            "odds": 7.0
+          },
+          {
+            "score": "1-0",
+            "odds": 7.5
+          },
+          {
+            "score": "2-0",
+            "odds": 8.5
+          },
+          {
+            "score": "0-0",
+            "odds": 13.0
+          },
+          {
+            "score": "0-1",
+            "odds": 13.0
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "胜胜",
+            "odds": 2.45
+          },
+          {
+            "path": "平胜",
+            "odds": 4.6
+          },
+          {
+            "path": "平平",
+            "odds": 6.0
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 14,
+          "medianOdds": {
+            "home": 1.7,
+            "draw": 3.925,
+            "away": 4.275
+          },
+          "favorite": "主胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": false,
+        "marketFavorite": "主胜",
+        "marketFavoriteProbability": 0.5503,
+        "action": "未触发热门降温"
+      },
+      "final": {
+        "result90Minutes": "主胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.4541,
+          "draw": 0.3003,
+          "away": 0.2456
+        },
+        "directionProbability": 0.4541,
+        "frameworkTotal": {
+          "home": 50.19,
+          "away": 57.25
+        },
+        "advancementLean": "贝尔格莱德红星（两回合倾向，次回合前必须重算）",
+        "totalGoals": "2",
+        "mainScore": "2-1",
+        "safeScores": [
+          "2-1",
+          "1-1",
+          "1-0"
+        ],
+        "tailScore": "2-0",
+        "upsetScore": "0-1",
+        "confidence": "中",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/2290/schedule?season=2026",
+        "https://www.thesportsdb.com/api/v1/json/3/eventslast.php?id=134015",
+        "https://v3.football.api-sports.io/injuries?fixture=1622632",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=598-567",
+        "https://v3.football.api-sports.io/odds?fixture=1622632",
+        "https://www.uefa.com/uefaeuropaleague/accesslist/",
+        "https://api.open-meteo.com/v1/forecast?latitude=44.80401&longitude=20.46513&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    },
+    {
+      "matchId": "2040954",
+      "matchNumStr": "周四009",
+      "fixture": {
+        "home": "本菲卡",
+        "away": "奥胡斯",
+        "kickoffBeijing": "2026-08-21T03:00:00+08:00",
+        "competition": "UEFA Europa League",
+        "round": "Play-offs",
+        "venue": "city-centred weather location: Lisbon",
+        "referee": "pre-match referee field checked with no value"
+      },
+      "hardPower": {
+        "weight": 0.4,
+        "home": {
+          "team": "本菲卡",
+          "sample": {
+            "matches": 6,
+            "wins": 3,
+            "draws": 2,
+            "losses": 1,
+            "goalsFor": 22,
+            "goalsAgainst": 6,
+            "pointsPerGame": 1.833,
+            "goalDifferencePerGame": 2.667,
+            "recentTrailNewestFirst": "W-D-D-W-W-L",
+            "lastCompletedAt": "2026-08-17T19:15Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-17 对 Casa Pia，7-0（胜）",
+          "modelScore": 71.33
+        },
+        "away": {
+          "team": "奥胡斯",
+          "sample": {
+            "matches": 7,
+            "wins": 2,
+            "draws": 2,
+            "losses": 3,
+            "goalsFor": 11,
+            "goalsAgainst": 15,
+            "pointsPerGame": 1.143,
+            "goalDifferencePerGame": -0.571,
+            "recentTrailNewestFirst": "L-L-W-D-W-D-L",
+            "lastCompletedAt": "2026-08-14T17:00Z"
+          },
+          "sampleAssessment": "充足",
+          "lastMatch": "2026-08-14 对 Viborg FF，1-2（负）",
+          "modelScore": 40.86
+        },
+        "judgement": "硬实力层倾向主队；低于5场的样本已做收缩，不直接外推。"
+      },
+      "tacticalMatchup": {
+        "weight": 0.35,
+        "home": {
+          "team": "本菲卡",
+          "attackGoalsPerMatch": 3.67,
+          "concededPerMatch": 1.0,
+          "opponentConcededPerMatch": 2.14,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 62.19
+        },
+        "away": {
+          "team": "奥胡斯",
+          "attackGoalsPerMatch": 1.57,
+          "concededPerMatch": 2.14,
+          "opponentConcededPerMatch": 1.0,
+          "confirmedInjuryRecords": [],
+          "injuryAudit": "伤停端点核验，去重后0条",
+          "modelScore": 54.57
+        },
+        "headToHead": {
+          "count": 0,
+          "homePerspective": "0胜0平0负，进0失0",
+          "latest": "接口已核验，历史交锋记录数为0",
+          "source": "https://v3.football.api-sports.io/fixtures/headtohead?h2h=211-406"
+        },
+        "goalsMarketTop3": [
+          {
+            "goals": "3",
+            "odds": 4.0
+          },
+          {
+            "goals": "4",
+            "odds": 4.3
+          },
+          {
+            "goals": "2",
+            "odds": 5.1
+          }
+        ],
+        "judgement": "主队进攻3.67/场对客队失球2.14/场；客队进攻1.57/场对主队失球1.0/场。"
+      },
+      "psychologySchedule": {
+        "weight": 0.25,
+        "home": {
+          "team": "本菲卡",
+          "formTrail": "W-D-D-W-W-L",
+          "restDays": 2,
+          "motivation": "主场首回合需建立领先，同时控制被反击",
+          "modelScore": 47.33
+        },
+        "away": {
+          "team": "奥胡斯",
+          "formTrail": "L-L-W-D-W-D-L",
+          "restDays": 6,
+          "motivation": "客场首回合优先控制失球，为次回合保留空间",
+          "modelScore": 52.43
+        },
+        "weather": {
+          "status": "checked",
+          "location": "Lisbon, PT",
+          "forecastLocalHour": "2026-08-20T20:00",
+          "temperatureC": 21.9,
+          "precipitationProbabilityPct": 0,
+          "windSpeedKmh": 16.6,
+          "source": "https://api.open-meteo.com/v1/forecast?latitude=38.72509&longitude=-9.1498&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
+          "checkedAt": "2026-08-20T13:59:35+08:00"
+        },
+        "judgement": "休息天数主2天、客6天；天气只作节奏修正，不替代实力判断。"
+      },
+      "tournamentCorrection": {
+        "mode": "two_leg_first",
+        "round": "Play-offs",
+        "applied": [
+          "两回合首回合：提高平局与低节奏路径权重",
+          "市场热门与近期证据差距偏大：执行热门降温"
+        ]
+      },
+      "oddsAudit": {
+        "sportterySnapshot": "2026-08-20 12:43:31",
+        "had": {
+          "method": "由官方CRS比分赔率按胜平负边际化",
+          "status": "not_offered_by_official_api"
+        },
+        "marketProbabilities": {
+          "home": 0.792,
+          "draw": 0.1244,
+          "away": 0.0836
+        },
+        "hhad": {
+          "line": "-2",
+          "home": 2.13,
+          "draw": 4.05,
+          "away": 2.42
+        },
+        "totalGoalsTop3": [
+          {
+            "goals": "3",
+            "odds": 4.0
+          },
+          {
+            "goals": "4",
+            "odds": 4.3
+          },
+          {
+            "goals": "2",
+            "odds": 5.1
+          }
+        ],
+        "scoreTop6": [
+          {
+            "score": "3-0",
+            "odds": 7.4
+          },
+          {
+            "score": "2-0",
+            "odds": 7.5
+          },
+          {
+            "score": "2-1",
+            "odds": 9.0
+          },
+          {
+            "score": "3-1",
+            "odds": 9.5
+          },
+          {
+            "score": "胜其他",
+            "odds": 9.5
+          },
+          {
+            "score": "1-0",
+            "odds": 10.0
+          }
+        ],
+        "halfFullTop3": [
+          {
+            "path": "胜胜",
+            "odds": 1.44
+          },
+          {
+            "path": "平胜",
+            "odds": 4.2
+          },
+          {
+            "path": "平平",
+            "odds": 12.0
+          }
+        ],
+        "externalConsensus": {
+          "status": "checked",
+          "bookmakerCount": 14,
+          "medianOdds": {
+            "home": 1.16,
+            "draw": 7.5,
+            "away": 13.0
+          },
+          "favorite": "主胜",
+          "sampleBookmakers": [
+            "10Bet",
+            "William Hill",
+            "Bet365",
+            "Marathonbet",
+            "Unibet"
+          ]
+        },
+        "movementStatus": "当前单时点快照；未用单点数据伪装赔率走势"
+      },
+      "overheatAudit": {
+        "detected": true,
+        "marketFavorite": "主胜",
+        "marketFavoriteProbability": 0.792,
+        "action": "市场热门与近期证据差距偏大：执行热门降温"
+      },
+      "final": {
+        "result90Minutes": "主胜",
+        "protection": "平",
+        "probabilities": {
+          "home": 0.6658,
+          "draw": 0.2189,
+          "away": 0.1153
+        },
+        "directionProbability": 0.6658,
+        "frameworkTotal": {
+          "home": 62.13,
+          "away": 48.55
+        },
+        "advancementLean": "本菲卡（两回合倾向，次回合前必须重算）",
+        "totalGoals": "3",
+        "mainScore": "3-0",
+        "safeScores": [
+          "3-0",
+          "1-1",
+          "2-0"
+        ],
+        "tailScore": "2-1",
+        "upsetScore": "1-2",
+        "confidence": "较高",
+        "riskTrigger": "若弱势方先入球，重新评估双方得分与3+球路径；首回合不可把晋级倾向等同90分钟胜负。"
+      },
+      "sources": [
+        "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/1929/schedule?season=2026",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/7853/schedule?season=2026",
+        "https://v3.football.api-sports.io/injuries?fixture=1623431",
+        "https://v3.football.api-sports.io/fixtures/headtohead?h2h=211-406",
+        "https://v3.football.api-sports.io/odds?fixture=1623431",
+        "https://www.uefa.com/uefaeuropaleague/accesslist/",
+        "https://api.open-meteo.com/v1/forecast?latitude=38.72509&longitude=-9.1498&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21"
+      ],
+      "completeness": {
+        "percent": 100.0,
+        "passed": 10,
+        "total": 10,
+        "checks": {
+          "officialSchedule": true,
+          "allOfficialPoolsAudited": true,
+          "externalFixtureMatched": true,
+          "homeRecentCompletedMatches": true,
+          "awayRecentCompletedMatches": true,
+          "injuryEndpointChecked": true,
+          "headToHeadEndpointChecked": true,
+          "externalOddsEndpointChecked": true,
+          "weatherChecked": true,
+          "competitionAuthorityAttached": true
+        }
+      }
+    }
+  ],
+  "audit": {
+    "matchCount": 9,
+    "completeMatches": 9,
+    "blankValueCount": 0,
+    "blankPaths": []
+  }
+}

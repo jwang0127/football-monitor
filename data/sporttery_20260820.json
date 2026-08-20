@@ -1,7 +1,7 @@
 {
   "date": "20260820",
   "businessDate": "2026-08-20",
-  "fetchedAt": "2026-08-20T13:59:35+08:00",
+  "fetchedAt": "2026-08-20T14:02:42+08:00",
   "lastUpdateTime": "2026-08-20 13:45:13",
   "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
   "rawSnapshot": "data\\raw\\sporttery_20260820_latest.json",
@@ -870,7 +870,7 @@
         "had": {
           "status": "not_offered_by_official_api",
           "reason": "中国竞彩网实时响应中未提供 HAD 在售值",
-          "checkedAt": "2026-08-20T13:59:35+08:00",
+          "checkedAt": "2026-08-20T14:02:42+08:00",
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
         },
         "hhad": {

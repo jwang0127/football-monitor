@@ -733,6 +733,14 @@ def calculate_prediction(match: dict[str, Any], external: dict[str, Any]) -> dic
     scored.sort(key=lambda row: row[1], reverse=True)
     direction = max(blended, key=blended.get)
     protection = sorted(blended, key=blended.get, reverse=True)[1]
+    framework_leader = "home" if home_score >= away_score else "away"
+    framework_gap = abs(home_score - away_score)
+    market_evidence_conflict = direction in {"home", "away"} and direction != framework_leader and framework_gap >= 5.0
+    if market_evidence_conflict:
+        protection = framework_leader
+        corrections.append(
+            f"盘口主方向与三维证据冲突：保护{framework_leader}，三维分差{framework_gap:.2f}"
+        )
     direction_scores = [score for score, _ in scored if outcome_from_score(score) == direction]
     protection_scores = [score for score, _ in scored if outcome_from_score(score) == protection]
     if not direction_scores:
@@ -768,6 +776,9 @@ def calculate_prediction(match: dict[str, Any], external: dict[str, Any]) -> dic
         "marketProbabilities": {key: round(value, 4) for key, value in market.items()},
         "finalProbabilities": {key: round(value, 4) for key, value in blended.items()},
         "overheatDetected": overheat,
+        "frameworkLeader": framework_leader,
+        "frameworkGap": round(framework_gap, 2),
+        "marketEvidenceConflict": market_evidence_conflict,
         "corrections": corrections or ["未触发额外赛制或热门修正"],
         "direction": direction,
         "protection": protection,

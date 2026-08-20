@@ -1,7 +1,7 @@
 {
   "version": "detailed-three-layer-v1",
   "businessDate": "2026-08-20",
-  "generatedAt": "2026-08-20T14:00:36+08:00",
+  "generatedAt": "2026-08-20T14:02:43+08:00",
   "sportteryLastUpdateTime": "2026-08-20 13:45:13",
   "matches": [
     {
@@ -122,7 +122,7 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 9.9,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=26.32599&longitude=43.97497&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主3天、客3天；天气只作节奏修正，不替代实力判断。"
       },
@@ -228,7 +228,11 @@
         "detected": true,
         "marketFavorite": "客胜",
         "marketFavoriteProbability": 0.7567,
-        "action": "市场热门与近期证据差距偏大：执行热门降温"
+        "action": "市场热门与近期证据差距偏大：执行热门降温",
+        "marketEvidenceConflict": false,
+        "frameworkLeader": "客胜",
+        "frameworkGap": 10.98,
+        "conflictAction": "盘口与三维主方向一致"
       },
       "final": {
         "result90Minutes": "客胜",
@@ -434,7 +438,7 @@
           "precipitationProbabilityPct": 3,
           "windSpeedKmh": 10.5,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=40.32718&longitude=-3.7635&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主4天、客5天；天气只作节奏修正，不替代实力判断。"
       },
@@ -442,7 +446,7 @@
         "mode": "league",
         "round": "Regular Season - 2",
         "applied": [
-          "未触发额外赛制或热门修正"
+          "盘口主方向与三维证据冲突：保护away，三维分差10.53"
         ]
       },
       "oddsAudit": {
@@ -540,7 +544,11 @@
         "detected": false,
         "marketFavorite": "主胜",
         "marketFavoriteProbability": 0.4364,
-        "action": "未触发额外赛制或热门修正"
+        "action": "未触发热门降温",
+        "marketEvidenceConflict": true,
+        "frameworkLeader": "客胜",
+        "frameworkGap": 10.53,
+        "conflictAction": "盘口主方向与三维证据冲突：保护away，三维分差10.53"
       },
       "final": {
         "result90Minutes": "主胜",
@@ -714,7 +722,7 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 6.2,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=-23.5475&longitude=-46.63611&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-20&end_date=2026-08-22",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主4天、客4天；天气只作节奏修正，不替代实力判断。"
       },
@@ -820,7 +828,11 @@
         "detected": false,
         "marketFavorite": "主胜",
         "marketFavoriteProbability": 0.476,
-        "action": "未触发额外赛制或热门修正"
+        "action": "未触发额外赛制或热门修正",
+        "marketEvidenceConflict": false,
+        "frameworkLeader": "主胜",
+        "frameworkGap": 3.66,
+        "conflictAction": "盘口与三维主方向一致"
       },
       "final": {
         "result90Minutes": "主胜",
@@ -994,7 +1006,7 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 3.4,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=43.25249&longitude=76.9115&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主9天、客4天；天气只作节奏修正，不替代实力判断。"
       },
@@ -1100,7 +1112,11 @@
         "detected": false,
         "marketFavorite": "客胜",
         "marketFavoriteProbability": 0.4634,
-        "action": "未触发热门降温"
+        "action": "未触发热门降温",
+        "marketEvidenceConflict": false,
+        "frameworkLeader": "客胜",
+        "frameworkGap": 6.65,
+        "conflictAction": "盘口与三维主方向一致"
       },
       "final": {
         "result90Minutes": "客胜",
@@ -1274,7 +1290,7 @@
           "precipitationProbabilityPct": 13,
           "windSpeedKmh": 14.0,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=56.01667&longitude=14.7&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主5天、客4天；天气只作节奏修正，不替代实力判断。"
       },
@@ -1380,7 +1396,11 @@
         "detected": false,
         "marketFavorite": "客胜",
         "marketFavoriteProbability": 0.5568,
-        "action": "未触发热门降温"
+        "action": "未触发热门降温",
+        "marketEvidenceConflict": false,
+        "frameworkLeader": "客胜",
+        "frameworkGap": 14.68,
+        "conflictAction": "盘口与三维主方向一致"
       },
       "final": {
         "result90Minutes": "客胜",
@@ -1554,7 +1574,7 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 1.6,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=41.005&longitude=39.72694&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主5天、客7天；天气只作节奏修正，不替代实力判断。"
       },
@@ -1562,7 +1582,8 @@
         "mode": "two_leg_first",
         "round": "Play-offs",
         "applied": [
-          "两回合首回合：提高平局与低节奏路径权重"
+          "两回合首回合：提高平局与低节奏路径权重",
+          "盘口主方向与三维证据冲突：保护away，三维分差17.81"
         ]
       },
       "oddsAudit": {
@@ -1660,11 +1681,15 @@
         "detected": false,
         "marketFavorite": "主胜",
         "marketFavoriteProbability": 0.5787,
-        "action": "未触发热门降温"
+        "action": "未触发热门降温",
+        "marketEvidenceConflict": true,
+        "frameworkLeader": "客胜",
+        "frameworkGap": 17.81,
+        "conflictAction": "盘口主方向与三维证据冲突：保护away，三维分差17.81"
       },
       "final": {
         "result90Minutes": "主胜",
-        "protection": "平",
+        "protection": "客胜",
         "probabilities": {
           "home": 0.4399,
           "draw": 0.2826,
@@ -1680,7 +1705,7 @@
         "mainScore": "2-1",
         "safeScores": [
           "2-1",
-          "1-1",
+          "1-2",
           "1-0"
         ],
         "tailScore": "2-0",
@@ -1834,7 +1859,7 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 6.2,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=52.40692&longitude=16.92993&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主5天、客6天；天气只作节奏修正，不替代实力判断。"
       },
@@ -1940,7 +1965,11 @@
         "detected": false,
         "marketFavorite": "主胜",
         "marketFavoriteProbability": 0.6326,
-        "action": "未触发热门降温"
+        "action": "未触发热门降温",
+        "marketEvidenceConflict": false,
+        "frameworkLeader": "主胜",
+        "frameworkGap": 11.25,
+        "conflictAction": "盘口与三维主方向一致"
       },
       "final": {
         "result90Minutes": "主胜",
@@ -2114,7 +2143,7 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 13.7,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=44.80401&longitude=20.46513&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主9天、客5天；天气只作节奏修正，不替代实力判断。"
       },
@@ -2122,7 +2151,8 @@
         "mode": "two_leg_first",
         "round": "Play-offs",
         "applied": [
-          "两回合首回合：提高平局与低节奏路径权重"
+          "两回合首回合：提高平局与低节奏路径权重",
+          "盘口主方向与三维证据冲突：保护away，三维分差7.06"
         ]
       },
       "oddsAudit": {
@@ -2220,11 +2250,15 @@
         "detected": false,
         "marketFavorite": "主胜",
         "marketFavoriteProbability": 0.5503,
-        "action": "未触发热门降温"
+        "action": "未触发热门降温",
+        "marketEvidenceConflict": true,
+        "frameworkLeader": "客胜",
+        "frameworkGap": 7.06,
+        "conflictAction": "盘口主方向与三维证据冲突：保护away，三维分差7.06"
       },
       "final": {
         "result90Minutes": "主胜",
-        "protection": "平",
+        "protection": "客胜",
         "probabilities": {
           "home": 0.4541,
           "draw": 0.3003,
@@ -2240,7 +2274,7 @@
         "mainScore": "2-1",
         "safeScores": [
           "2-1",
-          "1-1",
+          "0-1",
           "1-0"
         ],
         "tailScore": "2-0",
@@ -2394,7 +2428,7 @@
           "precipitationProbabilityPct": 0,
           "windSpeedKmh": 16.6,
           "source": "https://api.open-meteo.com/v1/forecast?latitude=38.72509&longitude=-9.1498&hourly=temperature_2m%2Cprecipitation_probability%2Cwind_speed_10m&timezone=auto&start_date=2026-08-19&end_date=2026-08-21",
-          "checkedAt": "2026-08-20T13:59:35+08:00"
+          "checkedAt": "2026-08-20T14:02:42+08:00"
         },
         "judgement": "休息天数主2天、客6天；天气只作节奏修正，不替代实力判断。"
       },
@@ -2500,7 +2534,11 @@
         "detected": true,
         "marketFavorite": "主胜",
         "marketFavoriteProbability": 0.792,
-        "action": "市场热门与近期证据差距偏大：执行热门降温"
+        "action": "市场热门与近期证据差距偏大：执行热门降温",
+        "marketEvidenceConflict": false,
+        "frameworkLeader": "主胜",
+        "frameworkGap": 13.58,
+        "conflictAction": "盘口与三维主方向一致"
       },
       "final": {
         "result90Minutes": "主胜",

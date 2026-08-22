@@ -127,6 +127,30 @@ def main() -> int:
     )
     lines += ["", "注：当前官方接口未必提供海外亚盘/欧赔走势；未提供字段统一记为 unavailable，待 500/海外源可读时追加同一时间点的来源数据。", "以上仅为公开信息整理后的娱乐分析，不构成任何购彩建议，请理性参考。"]
     table_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    latest = {}
+    for row in all_rows:
+        latest[row.get("matchNum")] = row
+    stage_rows = [row for row in latest.values() if any(tag in row.get("league", "") for tag in ("日本", "韩国", "J1", "J2", "K1", "K2"))]
+    if stage_rows:
+        stage_path = ROOT / "output" / f"stage_summary_{args.date}_1700.md"
+        stage_lines = [
+            f"# 日本/韩国阶段汇总（{target}）", "",
+            f"生成时间：{now}；本次官方接口返回：{len(rows)}场；当前日本/韩国相关场次：{len(stage_rows)}场。", "",
+            "|编号|联赛|开赛|主队|客队|比分|盘口状态|欧赔状态|进球数状态|阶段说明|",
+            "|---|---|---|---|---|---|---|---|---|---|",
+        ]
+        for row in sorted(stage_rows, key=lambda item: item.get("matchNum", "")):
+            history = [x for x in all_rows if x.get("matchNum") == row.get("matchNum")]
+            old = history[-2] if len(history) > 1 else None
+            changed = []
+            if old:
+                for field, label in (("handicap", "亚盘"), ("european", "欧赔"), ("goals", "进球数"), ("score", "比分")):
+                    if old.get(field) != row.get(field): changed.append(label)
+            stage_lines.append(
+                f"|{row.get('matchNum','unavailable')}|{row.get('league','unavailable')}|{row.get('kickoff','unavailable')[11:16]}|{row.get('home','unavailable')}|{row.get('away','unavailable')}|{row.get('score','unavailable')}|{row.get('handicap','unavailable')}|{row.get('european','unavailable')}|{row.get('goals','unavailable')}|{('；'.join(changed)+'发生变动，结合前后值解读' if changed else '本时间点未识别到变化；比分/盘口缺失项按 unavailable 处理')}|"
+            )
+        stage_lines += ["", "说明：001、002若不在本次官方返回列表中，只保留历史快照，不补采新盘口。", "以上仅为公开信息整理，不构成购彩建议。"]
+        stage_path.write_text("\n".join(stage_lines) + "\n", encoding="utf-8")
     print(json.dumps({"captured": len(rows), "data": str(data_path), "table": str(table_path)}, ensure_ascii=False))
     return 0
 

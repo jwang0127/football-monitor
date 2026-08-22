@@ -30,12 +30,19 @@ def fetch() -> dict:
         return json.loads(response.read())
 
 
-def value(raw: dict, *keys: str) -> str:
-    for key in keys:
-        item = raw.get(key)
-        if item not in (None, "", []):
-            return str(item)
-    return "unavailable"
+def pool(raw: dict | None) -> dict:
+    raw = raw if isinstance(raw, dict) else {}
+    result = {}
+    for key, item in raw.items():
+        if key.endswith("f") or key in {"updateDate", "updateTime"}:
+            continue
+        if item in (None, "", []):
+            continue
+        try:
+            result[key] = float(item)
+        except (TypeError, ValueError):
+            result[key] = str(item)
+    return result
 
 
 def main() -> int:
@@ -52,6 +59,9 @@ def main() -> int:
         for match in group.get("subMatchList", []):
             if match.get("businessDate") != target:
                 continue
+            ttg = pool(match.get("ttg"))
+            crs = {key: float(value) for key, value in pool(match.get("crs")).items()
+                   if key.startswith("s") and len(key) == 6}
             rows.append({
                 "capturedAt": now,
                 "businessDate": target,
@@ -62,9 +72,10 @@ def main() -> int:
                 "home": match.get("homeTeamAllName") or match.get("homeTeamAbbName") or "unavailable",
                 "away": match.get("awayTeamAllName") or match.get("awayTeamAbbName") or "unavailable",
                 "score": "not_started",
-                "asianHandicap": value(match, "hhad", "had"),
-                "europeanOdds": value(match, "had"),
-                "goalLineOdds": value(match, "ttg"),
+                "handicap": pool(match.get("hhad")) or {"status": "unavailable"},
+                "european": pool(match.get("had")) or {"status": "unavailable"},
+                "goals": ttg or {"status": "unavailable"},
+                "exactScores": crs or {"status": "unavailable"},
                 "source": URL,
                 "status": match.get("matchStatus", "unavailable"),
             })
@@ -76,17 +87,43 @@ def main() -> int:
     with data_path.open("a", encoding="utf-8") as handle:
         for row in rows:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+    all_rows = []
+    with data_path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            try:
+                all_rows.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    all_rows.sort(key=lambda row: (row.get("capturedAt", ""), row.get("matchNum", "")))
+    previous = {}
+    annotated = []
+    for row in all_rows:
+        old = previous.get(row.get("matchNum"))
+        changed = []
+        if old:
+            for field, label in (("handicap", "亚盘"), ("european", "欧赔"), ("goals", "进球数赔率"), ("exactScores", "比分赔率"), ("score", "比分")):
+                if old.get(field) != row.get(field):
+                    changed.append(label)
+        if not old:
+            interpretation = "首个时间点，建立基准"
+        elif changed:
+            interpretation = "；".join(changed) + "发生变动，需结合前后值判断方向"
+        else:
+            interpretation = "本时间点未识别到数值变化；不等于外盘无变化"
+        annotated.append((row, interpretation))
+        previous[row.get("matchNum")] = row
+
     table_path = ROOT / "output" / f"market_tracking_{args.date}.md"
     table_path.parent.mkdir(parents=True, exist_ok=True)
     lines = [
         f"# 盘口水位追踪（{target}）", "", 
-        f"本次抓取：{now}；官方场次数：{len(rows)}；来源：中国竞彩网接口。", "",
-        "|编号|开赛|主队|客队|时间点|比分|亚盘/水位|欧赔|进球数赔率|状态|",
-        "|---|---|---|---|---|---|---|---|---|---|",
+        f"本次抓取：{now}；官方场次数：{len(rows)}；累计时间点记录：{len(annotated)}；来源：中国竞彩网接口。", "",
+        "|编号|开赛|主队|客队|时间点|比分|让球线|让球水位|欧赔|总进球数赔率|状态|变动解读|",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     lines.extend(
-        f"|{r['matchNum']}|{r['kickoff'][11:16]}|{r['home']}|{r['away']}|{r['capturedAt']}|{r['score']}|{r['asianHandicap']}|{r['europeanOdds']}|{r['goalLineOdds']}|{r['status']}|"
-        for r in rows
+        f"|{r.get('matchNum', 'unavailable')}|{r.get('kickoff', 'unavailable')[11:16]}|{r.get('home', 'unavailable')}|{r.get('away', 'unavailable')}|{r.get('capturedAt', 'unavailable')}|{r.get('score', 'unavailable')}|{r.get('handicap', {}).get('goalLineValue', 'unavailable')}|{r.get('handicap', 'unavailable')}|{r.get('european', 'unavailable')}|{r.get('goals', 'unavailable')}|{r.get('status', 'unavailable')}|{interpretation}|"
+        for r, interpretation in annotated
     )
     lines += ["", "注：当前官方接口未必提供海外亚盘/欧赔走势；未提供字段统一记为 unavailable，待 500/海外源可读时追加同一时间点的来源数据。", "以上仅为公开信息整理后的娱乐分析，不构成任何购彩建议，请理性参考。"]
     table_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

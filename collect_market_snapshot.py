@@ -52,6 +52,8 @@ def main() -> int:
     target = f"{args.date[:4]}-{args.date[4:6]}-{args.date[6:8]}"
     payload = fetch()
     now = datetime.now().astimezone().isoformat(timespec="seconds")
+    hour = datetime.now().astimezone().hour
+    period = "凌晨" if hour < 6 else "上午" if hour < 12 else "下午" if hour < 18 else "晚间"
     rows = []
     for group in payload.get("value", {}).get("matchInfoList", []):
         if group.get("businessDate") != target:
@@ -100,17 +102,29 @@ def main() -> int:
     for row in all_rows:
         old = previous.get(row.get("matchNum"))
         changed = []
+        details = []
         if old:
             for field, label in (("handicap", "亚盘"), ("european", "欧赔"), ("goals", "进球数赔率"), ("exactScores", "比分赔率"), ("score", "比分")):
-                if old.get(field) != row.get(field):
+                before, after = old.get(field), row.get(field)
+                if before != after:
                     changed.append(label)
+                    if isinstance(before, dict) and isinstance(after, dict):
+                        ups = downs = 0
+                        for key in set(before) | set(after):
+                            try:
+                                a, b = float(before.get(key)), float(after.get(key))
+                            except (TypeError, ValueError):
+                                continue
+                            if b > a: ups += 1
+                            elif b < a: downs += 1
+                        details.append(f"{label}{ups}项上升/{downs}项下降")
         if not old:
             interpretation = "首个时间点，建立基准"
         elif changed:
-            interpretation = "；".join(changed) + "发生变动，需结合前后值判断方向"
+            interpretation = "；".join(details or changed) + "。赔率下降表示该档位市场隐含概率相对上升，盘口变化仍不等于结果确定"
         else:
             interpretation = "本时间点未识别到数值变化；不等于外盘无变化"
-        annotated.append((row, interpretation))
+        annotated.append((row, period, interpretation))
         previous[row.get("matchNum")] = row
 
     table_path = ROOT / "output" / f"market_tracking_{args.date}.md"
@@ -118,12 +132,12 @@ def main() -> int:
     lines = [
         f"# 盘口水位追踪（{target}）", "", 
         f"本次抓取：{now}；官方场次数：{len(rows)}；累计时间点记录：{len(annotated)}；来源：中国竞彩网接口。", "",
-        "|编号|开赛|主队|客队|时间点|比分|让球线|让球水位|欧赔|总进球数赔率|状态|变动解读|",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "|编号|开赛|主队|客队|时段|时间点|比分|让球线|让球水位|欧赔|总进球数赔率|状态|变动解读|",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     lines.extend(
-        f"|{r.get('matchNum', 'unavailable')}|{r.get('kickoff', 'unavailable')[11:16]}|{r.get('home', 'unavailable')}|{r.get('away', 'unavailable')}|{r.get('capturedAt', 'unavailable')}|{r.get('score', 'unavailable')}|{r.get('handicap', {}).get('goalLineValue', 'unavailable')}|{r.get('handicap', 'unavailable')}|{r.get('european', 'unavailable')}|{r.get('goals', 'unavailable')}|{r.get('status', 'unavailable')}|{interpretation}|"
-        for r, interpretation in annotated
+        f"|{r.get('matchNum', 'unavailable')}|{r.get('kickoff', 'unavailable')[11:16]}|{r.get('home', 'unavailable')}|{r.get('away', 'unavailable')}|{period_label}|{r.get('capturedAt', 'unavailable')}|{r.get('score', 'unavailable')}|{r.get('handicap', {}).get('goalLineValue', 'unavailable')}|{r.get('handicap', 'unavailable')}|{r.get('european', 'unavailable')}|{r.get('goals', 'unavailable')}|{r.get('status', 'unavailable')}|{interpretation}|"
+        for r, period_label, interpretation in annotated
     )
     lines += ["", "注：当前官方接口未必提供海外亚盘/欧赔走势；未提供字段统一记为 unavailable，待 500/海外源可读时追加同一时间点的来源数据。", "以上仅为公开信息整理后的娱乐分析，不构成任何购彩建议，请理性参考。"]
     table_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

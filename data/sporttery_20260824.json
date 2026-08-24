@@ -1,0 +1,1176 @@
+{
+  "date": "20260824",
+  "businessDate": "2026-08-24",
+  "fetchedAt": "2026-08-24T10:57:18+08:00",
+  "lastUpdateTime": "2026-08-24 10:37:40",
+  "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu",
+  "rawSnapshot": "data\\raw\\sporttery_20260824_latest.json",
+  "matches": [
+    {
+      "matchId": "2041028",
+      "matchNumStr": "周一001",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T00:30:00+08:00",
+      "league": "意大利甲级联赛",
+      "leagueCode": "ISA",
+      "home": "博洛尼亚",
+      "away": "拉齐奥",
+      "homeCode": "BOG",
+      "awayCode": "LAZ",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 2.08,
+            "d": 2.98,
+            "a": 3.2
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 4.75,
+            "d": 3.55,
+            "a": 1.57,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-22 09:44:32",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 9.0,
+            "s1": 4.05,
+            "s2": 3.25,
+            "s3": 3.9,
+            "s4": 6.8,
+            "s5": 14.0,
+            "s6": 26.0,
+            "s7": 40.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 9.0,
+            "s00s01": 8.25,
+            "s00s02": 16.0,
+            "s00s03": 50.0,
+            "s00s04": 175.0,
+            "s00s05": 500.0,
+            "s01s00": 6.5,
+            "s01s01": 6.0,
+            "s01s02": 10.0,
+            "s01s03": 27.0,
+            "s01s04": 100.0,
+            "s01s05": 500.0,
+            "s02s00": 9.0,
+            "s02s01": 8.0,
+            "s02s02": 15.0,
+            "s02s03": 50.0,
+            "s02s04": 175.0,
+            "s02s05": 500.0,
+            "s03s00": 20.0,
+            "s03s01": 20.0,
+            "s03s02": 30.0,
+            "s03s03": 90.0,
+            "s04s00": 60.0,
+            "s04s01": 60.0,
+            "s04s02": 100.0,
+            "s05s00": 200.0,
+            "s05s01": 200.0,
+            "s05s02": 350.0,
+            "s1sa": 200.0,
+            "s1sd": 600.0,
+            "s1sh": 100.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 3.65,
+            "hd": 15.0,
+            "ha": 33.0,
+            "dh": 5.2,
+            "dd": 4.9,
+            "da": 7.0,
+            "ah": 25.0,
+            "ad": 15.0,
+            "aa": 5.4
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041029",
+      "matchNumStr": "周一002",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T00:40:00+08:00",
+      "league": "沙特职业联赛",
+      "leagueCode": "SDL",
+      "home": "新未来SC",
+      "away": "胡巴尔卡德西亚",
+      "homeCode": "NEO",
+      "awayCode": "AQA",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 5.2,
+            "d": 4.5,
+            "a": 1.4
+          },
+          "updatedAt": "2026-08-23 13:09:37",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 2.47,
+            "d": 3.77,
+            "a": 2.18,
+            "goalLine": "+1",
+            "goalLineValue": "+1.00"
+          },
+          "updatedAt": "2026-08-23 13:09:37",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 29.0,
+            "s1": 8.5,
+            "s2": 4.7,
+            "s3": 3.75,
+            "s4": 4.4,
+            "s5": 6.4,
+            "s6": 9.5,
+            "s7": 12.0
+          },
+          "updatedAt": "2026-08-23 21:57:21",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 29.0,
+            "s00s01": 12.0,
+            "s00s02": 9.5,
+            "s00s03": 13.0,
+            "s00s04": 21.0,
+            "s00s05": 39.0,
+            "s01s00": 23.0,
+            "s01s01": 9.5,
+            "s01s02": 7.5,
+            "s01s03": 9.5,
+            "s01s04": 18.0,
+            "s01s05": 33.0,
+            "s02s00": 33.0,
+            "s02s01": 14.0,
+            "s02s02": 14.0,
+            "s02s03": 17.0,
+            "s02s04": 29.0,
+            "s02s05": 60.0,
+            "s03s00": 80.0,
+            "s03s01": 35.0,
+            "s03s02": 31.0,
+            "s03s03": 39.0,
+            "s04s00": 250.0,
+            "s04s01": 90.0,
+            "s04s02": 90.0,
+            "s05s00": 700.0,
+            "s05s01": 350.0,
+            "s05s02": 300.0,
+            "s1sa": 17.0,
+            "s1sd": 175.0,
+            "s1sh": 80.0
+          },
+          "updatedAt": "2026-08-23 13:09:36",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 9.1,
+            "hd": 18.0,
+            "ha": 19.0,
+            "dh": 13.5,
+            "dd": 8.65,
+            "da": 4.65,
+            "ah": 38.0,
+            "ad": 18.0,
+            "aa": 2.0
+          },
+          "updatedAt": "2026-08-23 13:09:36",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041030",
+      "matchNumStr": "周一003",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T01:00:00+08:00",
+      "league": "瑞典超级联赛",
+      "leagueCode": "SAL",
+      "home": "马尔默",
+      "away": "佐加顿斯",
+      "homeCode": "MAM",
+      "awayCode": "DJU",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 2.7,
+            "d": 3.65,
+            "a": 2.07
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 1.56,
+            "d": 4.1,
+            "a": 4.1,
+            "goalLine": "+1",
+            "goalLineValue": "+1.00"
+          },
+          "updatedAt": "2026-08-22 09:44:32",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 22.0,
+            "s1": 7.25,
+            "s2": 4.5,
+            "s3": 3.7,
+            "s4": 4.6,
+            "s5": 6.85,
+            "s6": 11.0,
+            "s7": 13.5
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 22.0,
+            "s00s01": 13.5,
+            "s00s02": 14.0,
+            "s00s03": 21.0,
+            "s00s04": 55.0,
+            "s00s05": 100.0,
+            "s01s00": 14.0,
+            "s01s01": 8.25,
+            "s01s02": 7.7,
+            "s01s03": 14.0,
+            "s01s04": 33.0,
+            "s01s05": 75.0,
+            "s02s00": 19.0,
+            "s02s01": 9.5,
+            "s02s02": 11.0,
+            "s02s03": 17.0,
+            "s02s04": 40.0,
+            "s02s05": 100.0,
+            "s03s00": 30.0,
+            "s03s01": 20.0,
+            "s03s02": 20.0,
+            "s03s03": 30.0,
+            "s04s00": 75.0,
+            "s04s01": 50.0,
+            "s04s02": 50.0,
+            "s05s00": 250.0,
+            "s05s01": 150.0,
+            "s05s02": 150.0,
+            "s1sa": 35.0,
+            "s1sd": 150.0,
+            "s1sh": 50.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 4.4,
+            "hd": 14.0,
+            "ha": 22.0,
+            "dh": 7.25,
+            "dd": 7.0,
+            "da": 5.6,
+            "ah": 28.0,
+            "ad": 14.0,
+            "aa": 3.4
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041031",
+      "matchNumStr": "周一004",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T01:30:00+08:00",
+      "league": "西班牙甲级联赛",
+      "leagueCode": "SFL",
+      "home": "奥萨苏纳",
+      "away": "莱万特",
+      "homeCode": "OSA",
+      "awayCode": "LVT",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 1.62,
+            "d": 3.36,
+            "a": 4.66
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 3.1,
+            "d": 3.26,
+            "a": 2.0,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-22 09:44:32",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 10.5,
+            "s1": 4.55,
+            "s2": 3.4,
+            "s3": 3.75,
+            "s4": 6.0,
+            "s5": 12.0,
+            "s6": 21.0,
+            "s7": 32.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 10.5,
+            "s00s01": 12.5,
+            "s00s02": 27.0,
+            "s00s03": 80.0,
+            "s00s04": 300.0,
+            "s00s05": 600.0,
+            "s01s00": 6.5,
+            "s01s01": 6.4,
+            "s01s02": 13.0,
+            "s01s03": 48.0,
+            "s01s04": 200.0,
+            "s01s05": 500.0,
+            "s02s00": 7.75,
+            "s02s01": 7.0,
+            "s02s02": 16.0,
+            "s02s03": 50.0,
+            "s02s04": 200.0,
+            "s02s05": 600.0,
+            "s03s00": 13.0,
+            "s03s01": 13.0,
+            "s03s02": 27.0,
+            "s03s03": 85.0,
+            "s04s00": 31.0,
+            "s04s01": 30.0,
+            "s04s02": 70.0,
+            "s05s00": 85.0,
+            "s05s01": 90.0,
+            "s05s02": 200.0,
+            "s1sa": 250.0,
+            "s1sd": 400.0,
+            "s1sh": 60.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 2.65,
+            "hd": 16.5,
+            "ha": 42.0,
+            "dh": 4.25,
+            "dd": 5.25,
+            "da": 10.5,
+            "ah": 25.0,
+            "ad": 16.5,
+            "aa": 8.25
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041032",
+      "matchNumStr": "周一005",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T02:00:00+08:00",
+      "league": "沙特职业联赛",
+      "leagueCode": "SDL",
+      "home": "吉达联合",
+      "away": "拉斯决心",
+      "homeCode": "AIT",
+      "awayCode": "AHZ",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 1.37,
+            "d": 4.3,
+            "a": 6.0
+          },
+          "updatedAt": "2026-08-23 13:09:37",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 2.19,
+            "d": 3.5,
+            "a": 2.58,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-23 13:09:37",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 18.0,
+            "s1": 6.5,
+            "s2": 4.1,
+            "s3": 3.5,
+            "s4": 4.8,
+            "s5": 8.0,
+            "s6": 13.5,
+            "s7": 17.5
+          },
+          "updatedAt": "2026-08-23 13:09:36",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 18.0,
+            "s00s01": 19.0,
+            "s00s02": 35.0,
+            "s00s03": 85.0,
+            "s00s04": 350.0,
+            "s00s05": 900.0,
+            "s01s00": 8.0,
+            "s01s01": 8.0,
+            "s01s02": 17.0,
+            "s01s03": 50.0,
+            "s01s04": 175.0,
+            "s01s05": 550.0,
+            "s02s00": 8.0,
+            "s02s01": 7.25,
+            "s02s02": 16.0,
+            "s02s03": 45.0,
+            "s02s04": 175.0,
+            "s02s05": 550.0,
+            "s03s00": 11.0,
+            "s03s01": 9.75,
+            "s03s02": 22.0,
+            "s03s03": 55.0,
+            "s04s00": 20.0,
+            "s04s01": 20.0,
+            "s04s02": 38.0,
+            "s05s00": 38.0,
+            "s05s01": 45.0,
+            "s05s02": 80.0,
+            "s1sa": 175.0,
+            "s1sd": 350.0,
+            "s1sh": 24.0
+          },
+          "updatedAt": "2026-08-23 13:09:36",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 2.02,
+            "hd": 19.0,
+            "ha": 50.0,
+            "dh": 4.1,
+            "dd": 7.5,
+            "da": 14.5,
+            "ah": 24.0,
+            "ad": 19.0,
+            "aa": 10.5
+          },
+          "updatedAt": "2026-08-23 13:09:36",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041033",
+      "matchNumStr": "周一006",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T02:45:00+08:00",
+      "league": "意大利甲级联赛",
+      "leagueCode": "ISA",
+      "home": "罗马",
+      "away": "佛罗伦萨",
+      "homeCode": "ROM",
+      "awayCode": "FIO",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 1.54,
+            "d": 3.55,
+            "a": 5.05
+          },
+          "updatedAt": "2026-08-24 10:17:44",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 2.69,
+            "d": 3.4,
+            "a": 2.16,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-24 10:17:51",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 12.0,
+            "s1": 4.85,
+            "s2": 3.45,
+            "s3": 3.75,
+            "s4": 5.7,
+            "s5": 10.5,
+            "s6": 19.0,
+            "s7": 29.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 12.0,
+            "s00s01": 14.0,
+            "s00s02": 27.0,
+            "s00s03": 90.0,
+            "s00s04": 350.0,
+            "s00s05": 800.0,
+            "s01s00": 6.7,
+            "s01s01": 7.0,
+            "s01s02": 15.0,
+            "s01s03": 50.0,
+            "s01s04": 200.0,
+            "s01s05": 700.0,
+            "s02s00": 7.5,
+            "s02s01": 7.0,
+            "s02s02": 16.0,
+            "s02s03": 50.0,
+            "s02s04": 200.0,
+            "s02s05": 700.0,
+            "s03s00": 11.0,
+            "s03s01": 12.0,
+            "s03s02": 25.0,
+            "s03s03": 90.0,
+            "s04s00": 24.0,
+            "s04s01": 28.0,
+            "s04s02": 60.0,
+            "s05s00": 60.0,
+            "s05s01": 75.0,
+            "s05s02": 175.0,
+            "s1sa": 300.0,
+            "s1sd": 500.0,
+            "s1sh": 50.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 2.28,
+            "hd": 18.0,
+            "ha": 45.0,
+            "dh": 4.3,
+            "dd": 5.8,
+            "da": 12.0,
+            "ah": 26.0,
+            "ad": 18.0,
+            "aa": 9.5
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041034",
+      "matchNumStr": "周一007",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T02:45:00+08:00",
+      "league": "法国乙级联赛",
+      "leagueCode": "FF2",
+      "home": "兰斯",
+      "away": "阿纳西",
+      "homeCode": "REM",
+      "awayCode": "ANN",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 1.68,
+            "d": 3.32,
+            "a": 4.3
+          },
+          "updatedAt": "2026-08-24 10:18:10",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 3.28,
+            "d": 3.35,
+            "a": 1.9,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-24 10:18:16",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 10.5,
+            "s1": 4.5,
+            "s2": 3.45,
+            "s3": 3.8,
+            "s4": 6.1,
+            "s5": 11.5,
+            "s6": 20.0,
+            "s7": 30.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 10.5,
+            "s00s01": 11.5,
+            "s00s02": 25.0,
+            "s00s03": 75.0,
+            "s00s04": 250.0,
+            "s00s05": 700.0,
+            "s01s00": 6.5,
+            "s01s01": 6.4,
+            "s01s02": 13.0,
+            "s01s03": 50.0,
+            "s01s04": 175.0,
+            "s01s05": 600.0,
+            "s02s00": 7.5,
+            "s02s01": 7.0,
+            "s02s02": 16.0,
+            "s02s03": 50.0,
+            "s02s04": 200.0,
+            "s02s05": 600.0,
+            "s03s00": 14.0,
+            "s03s01": 14.0,
+            "s03s02": 27.0,
+            "s03s03": 80.0,
+            "s04s00": 32.0,
+            "s04s01": 32.0,
+            "s04s02": 70.0,
+            "s05s00": 90.0,
+            "s05s01": 90.0,
+            "s05s02": 200.0,
+            "s1sa": 250.0,
+            "s1sd": 500.0,
+            "s1sh": 60.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 2.77,
+            "hd": 16.0,
+            "ha": 40.0,
+            "dh": 4.5,
+            "dd": 5.2,
+            "da": 9.25,
+            "ah": 27.0,
+            "ad": 16.0,
+            "aa": 7.5
+          },
+          "updatedAt": "2026-08-24 10:18:25",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041035",
+      "matchNumStr": "周一008",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T03:00:00+08:00",
+      "league": "英格兰超级联赛",
+      "leagueCode": "EPL",
+      "home": "富勒姆",
+      "away": "切尔西",
+      "homeCode": "FUL",
+      "awayCode": "CHE",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 3.66,
+            "d": 3.55,
+            "a": 1.74
+          },
+          "updatedAt": "2026-08-24 10:19:11",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 1.85,
+            "d": 3.55,
+            "a": 3.25,
+            "goalLine": "+1",
+            "goalLineValue": "+1.00"
+          },
+          "updatedAt": "2026-08-24 10:19:47",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 16.0,
+            "s1": 6.0,
+            "s2": 3.9,
+            "s3": 3.7,
+            "s4": 4.8,
+            "s5": 8.5,
+            "s6": 14.0,
+            "s7": 20.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 16.0,
+            "s00s01": 9.5,
+            "s00s02": 10.0,
+            "s00s03": 17.0,
+            "s00s04": 35.0,
+            "s00s05": 100.0,
+            "s01s00": 14.5,
+            "s01s01": 7.5,
+            "s01s02": 7.0,
+            "s01s03": 12.5,
+            "s01s04": 28.0,
+            "s01s05": 80.0,
+            "s02s00": 23.0,
+            "s02s01": 10.5,
+            "s02s02": 11.5,
+            "s02s03": 20.0,
+            "s02s04": 50.0,
+            "s02s05": 120.0,
+            "s03s00": 50.0,
+            "s03s01": 27.0,
+            "s03s02": 30.0,
+            "s03s03": 40.0,
+            "s04s00": 150.0,
+            "s04s01": 90.0,
+            "s04s02": 100.0,
+            "s05s00": 500.0,
+            "s05s01": 350.0,
+            "s05s02": 350.0,
+            "s1sa": 35.0,
+            "s1sd": 200.0,
+            "s1sh": 90.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 6.25,
+            "hd": 15.0,
+            "ha": 20.0,
+            "dh": 9.0,
+            "dd": 6.3,
+            "da": 4.7,
+            "ah": 30.0,
+            "ad": 15.0,
+            "aa": 2.9
+          },
+          "updatedAt": "2026-08-24 10:19:30",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041036",
+      "matchNumStr": "周一009",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T03:15:00+08:00",
+      "league": "葡萄牙超级联赛",
+      "leagueCode": "PFL",
+      "home": "吉维森特",
+      "away": "卡萨皮亚",
+      "homeCode": "GIV",
+      "awayCode": "CAP",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 1.53,
+            "d": 3.4,
+            "a": 5.5
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 2.9,
+            "d": 3.13,
+            "a": 2.15,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-22 09:44:32",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 9.0,
+            "s1": 4.2,
+            "s2": 3.25,
+            "s3": 3.85,
+            "s4": 6.8,
+            "s5": 13.5,
+            "s6": 25.0,
+            "s7": 40.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 9.0,
+            "s00s01": 11.5,
+            "s00s02": 30.0,
+            "s00s03": 120.0,
+            "s00s04": 550.0,
+            "s00s05": 1000.0,
+            "s01s00": 5.6,
+            "s01s01": 6.5,
+            "s01s02": 15.0,
+            "s01s03": 70.0,
+            "s01s04": 400.0,
+            "s01s05": 850.0,
+            "s02s00": 6.5,
+            "s02s01": 7.25,
+            "s02s02": 20.0,
+            "s02s03": 80.0,
+            "s02s04": 400.0,
+            "s02s05": 1000.0,
+            "s03s00": 12.0,
+            "s03s01": 13.0,
+            "s03s02": 31.0,
+            "s03s03": 175.0,
+            "s04s00": 25.0,
+            "s04s01": 31.0,
+            "s04s02": 100.0,
+            "s05s00": 80.0,
+            "s05s01": 100.0,
+            "s05s02": 350.0,
+            "s1sa": 550.0,
+            "s1sd": 750.0,
+            "s1sh": 80.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 2.35,
+            "hd": 19.0,
+            "ha": 45.0,
+            "dh": 4.3,
+            "dd": 5.2,
+            "da": 11.0,
+            "ah": 29.0,
+            "ad": 19.0,
+            "aa": 10.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041037",
+      "matchNumStr": "周一010",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T03:30:00+08:00",
+      "league": "西班牙甲级联赛",
+      "leagueCode": "SFL",
+      "home": "马拉加",
+      "away": "拉科鲁尼亚",
+      "homeCode": "MAL",
+      "awayCode": "DEP",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 2.3,
+            "d": 2.8,
+            "a": 2.96
+          },
+          "updatedAt": "2026-08-24 10:37:33",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 5.3,
+            "d": 3.77,
+            "a": 1.48,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-24 10:37:40",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 8.0,
+            "s1": 3.9,
+            "s2": 3.15,
+            "s3": 3.95,
+            "s4": 7.3,
+            "s5": 16.0,
+            "s6": 30.0,
+            "s7": 50.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 8.0,
+            "s00s01": 8.0,
+            "s00s02": 14.0,
+            "s00s03": 38.0,
+            "s00s04": 100.0,
+            "s00s05": 500.0,
+            "s01s00": 6.5,
+            "s01s01": 5.4,
+            "s01s02": 10.0,
+            "s01s03": 28.0,
+            "s01s04": 100.0,
+            "s01s05": 500.0,
+            "s02s00": 10.5,
+            "s02s01": 8.0,
+            "s02s02": 16.0,
+            "s02s03": 50.0,
+            "s02s04": 150.0,
+            "s02s05": 500.0,
+            "s03s00": 25.0,
+            "s03s01": 21.0,
+            "s03s02": 37.0,
+            "s03s03": 100.0,
+            "s04s00": 85.0,
+            "s04s01": 75.0,
+            "s04s02": 100.0,
+            "s05s00": 300.0,
+            "s05s01": 300.0,
+            "s05s02": 450.0,
+            "s1sa": 200.0,
+            "s1sd": 500.0,
+            "s1sh": 175.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 4.0,
+            "hd": 16.0,
+            "ha": 32.0,
+            "dh": 5.4,
+            "dd": 4.3,
+            "da": 6.75,
+            "ah": 28.0,
+            "ad": 16.0,
+            "aa": 5.1
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    },
+    {
+      "matchId": "2041038",
+      "matchNumStr": "周一011",
+      "businessDate": "2026-08-24",
+      "kickoff": "2026-08-25T07:00:00+08:00",
+      "league": "巴西甲级联赛",
+      "leagueCode": "BD1",
+      "home": "博塔弗戈",
+      "away": "巴拉纳竞技",
+      "homeCode": "BOF",
+      "awayCode": "ALP",
+      "matchStatus": "Selling",
+      "pools": {
+        "had": {
+          "status": "offered",
+          "values": {
+            "h": 2.17,
+            "d": 3.0,
+            "a": 2.98
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hhad": {
+          "status": "offered",
+          "values": {
+            "h": 4.9,
+            "d": 3.7,
+            "a": 1.53,
+            "goalLine": "-1",
+            "goalLineValue": "-1.00"
+          },
+          "updatedAt": "2026-08-22 09:44:32",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "ttg": {
+          "status": "offered",
+          "values": {
+            "s0": 10.0,
+            "s1": 4.3,
+            "s2": 3.3,
+            "s3": 3.8,
+            "s4": 6.2,
+            "s5": 12.0,
+            "s6": 27.0,
+            "s7": 42.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "crs": {
+          "status": "offered",
+          "values": {
+            "s00s00": 10.0,
+            "s00s01": 9.0,
+            "s00s02": 15.0,
+            "s00s03": 36.0,
+            "s00s04": 90.0,
+            "s00s05": 350.0,
+            "s01s00": 7.25,
+            "s01s01": 6.0,
+            "s01s02": 10.0,
+            "s01s03": 25.0,
+            "s01s04": 80.0,
+            "s01s05": 300.0,
+            "s02s00": 11.0,
+            "s02s01": 7.75,
+            "s02s02": 14.0,
+            "s02s03": 33.0,
+            "s02s04": 120.0,
+            "s02s05": 350.0,
+            "s03s00": 24.0,
+            "s03s01": 19.0,
+            "s03s02": 30.0,
+            "s03s03": 70.0,
+            "s04s00": 60.0,
+            "s04s01": 50.0,
+            "s04s02": 80.0,
+            "s05s00": 175.0,
+            "s05s01": 175.0,
+            "s05s02": 300.0,
+            "s1sa": 120.0,
+            "s1sd": 450.0,
+            "s1sh": 95.0
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        },
+        "hafu": {
+          "status": "offered",
+          "values": {
+            "hh": 3.7,
+            "hd": 16.0,
+            "ha": 33.0,
+            "dh": 5.35,
+            "dd": 4.6,
+            "da": 7.0,
+            "ah": 28.0,
+            "ad": 16.0,
+            "aa": 5.1
+          },
+          "updatedAt": "2026-08-22 09:44:31",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=ttg,had,hhad,crs,hafu"
+        }
+      }
+    }
+  ]
+}

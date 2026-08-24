@@ -32,3 +32,7 @@ python -m unittest discover -s tests -v
 - `YYYYMMDD/index.html`：静态网页
 
 “100%”指本项目定义的必需采集检查全部执行成功、每个结论都有来源，不代表比赛结果命中率。足球比赛存在随机性，任何模型都不能保证预测命中。
+
+## 自动盘口更新
+
+`auto_market_update.py` 会按中国时区确定竞彩业务日，采集中国竞彩网官方盘口快照并重建首页。GitHub Actions 工作流每 30 分钟运行一次，也支持手动传入 `YYYYMMDD`；采集结果会自动提交到仓库。缺失的盘口字段保留为 `unavailable`，不补造数据。

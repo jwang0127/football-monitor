@@ -45,6 +45,26 @@ def pool(raw: dict | None) -> dict:
     return result
 
 
+def changed_odds(before: dict, after: dict, field: str) -> str:
+    """List every changed goal or score odd, preserving the exact values."""
+    rows = []
+    for key in sorted(set(before) | set(after)):
+        try:
+            old, new = float(before.get(key)), float(after.get(key))
+        except (TypeError, ValueError):
+            continue
+        if old == new:
+            continue
+        if field == "goals":
+            label = f"{key[1:]}球" if key.startswith("s") else key
+        elif field == "exactScores" and key.startswith("s") and len(key) == 6:
+            label = f"{key[1:3]}-{key[4:6]}"
+        else:
+            label = key
+        rows.append(f"{label} {old:g}→{new:g}")
+    return "、".join(rows)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=datetime.now().strftime("%Y%m%d"))
@@ -117,7 +137,11 @@ def main() -> int:
                                 continue
                             if b > a: ups += 1
                             elif b < a: downs += 1
-                        details.append(f"{label}{ups}项上升/{downs}项下降")
+                        if field in {"goals", "exactScores"}:
+                            values = changed_odds(before, after, field)
+                            details.append(f"{label}：{values}" if values else f"{label}{ups}项上升/{downs}项下降")
+                        else:
+                            details.append(f"{label}{ups}项上升/{downs}项下降")
         if not old:
             interpretation = "首个时间点，建立基准"
         elif changed:

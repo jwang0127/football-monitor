@@ -1,7 +1,7 @@
 {
   "date": "20260827",
   "businessDate": "2026-08-27",
-  "fetchedAt": "2026-08-27T13:54:40+08:00",
+  "fetchedAt": "2026-08-27T14:25:39+08:00",
   "source": "data/market_snapshots_20260827.jsonl",
   "matches": [
     {
@@ -17,19 +17,19 @@
         "had": {
           "status": "offered",
           "values": {
-            "a": 2.85,
+            "a": 2.76,
             "d": 3.65,
-            "h": 1.98
+            "h": 2.03
           }
         },
         "hhad": {
           "status": "offered",
           "values": {
-            "a": 1.64,
-            "d": 3.85,
+            "a": 1.61,
+            "d": 3.9,
             "goalLine": -1.0,
             "goalLineValue": -1.0,
-            "h": 3.85
+            "h": 3.98
           }
         },
         "ttg": {
@@ -405,11 +405,11 @@
         "hhad": {
           "status": "offered",
           "values": {
-            "a": 2.98,
-            "d": 3.5,
+            "a": 3.04,
+            "d": 3.55,
             "goalLine": -1.0,
             "goalLineValue": -1.0,
-            "h": 1.97
+            "h": 1.93
           }
         },
         "ttg": {
@@ -557,11 +557,11 @@
         "hhad": {
           "status": "offered",
           "values": {
-            "a": 4.35,
-            "d": 4.37,
+            "a": 4.4,
+            "d": 4.5,
             "goalLine": -1.0,
             "goalLineValue": -1.0,
-            "h": 1.49
+            "h": 1.47
           }
         },
         "ttg": {

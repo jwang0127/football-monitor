@@ -5,19 +5,19 @@ import argparse
 import shutil
 import subprocess
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent
+CHINA_TZ = timezone(timedelta(hours=8))
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", help="Sporttery business date, YYYYMMDD")
     args = parser.parse_args()
-    date = args.date or datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y%m%d")
+    date = args.date or datetime.now(CHINA_TZ).strftime("%Y%m%d")
     previous_date = (datetime.strptime(date, "%Y%m%d") - timedelta(days=1)).strftime("%Y%m%d")
     previous_page = ROOT / previous_date
     if previous_page.is_dir():
